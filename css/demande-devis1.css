@@ -1,0 +1,166 @@
+.message {
+    display: block
+}
+
+header {
+    position: static
+}
+
+.search {
+    box-shadow: none;
+    background: none
+}
+
+.message {
+    margin: 50px 0
+}
+
+.chat {
+    padding: 35px 10px;
+}
+
+.reserver h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-size: 45px;
+    letter-spacing: 1.5;
+    margin-bottom: 0
+}
+.reserver h2 span {
+    color: #ec1b1b;
+}
+
+
+.reserver h3 {
+    color: #fff;
+    font-family: Montserrat-Medium;
+    letter-spacing: 1.4;
+    font-size: 28px;
+}
+
+.reserver form {
+    margin-top: 66px
+}
+
+.reserver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+
+.reserver .form-control,
+.search {
+    width: 100%;
+    height: 55px;
+}
+
+.reserver .search {
+    background: #EC1B1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    box-shadow: 1px 1px 30px 1px #525252;
+    border-radius: 7px;
+}
+
+.reserver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+
+.reserver .selectric {
+    width: 100%;
+    height: 55px;
+    padding: 0.65rem .75rem;
+    text-align: left
+}
+
+.reserver .col {
+    padding: 0
+}
+
+.reserver .selectric .label {
+    color: #A29B9B;
+    font-size: 1rem;
+    margin-left: 29px;
+    font-family: Montserrat-Medium;
+}
+
+.reserver .selectric-items {
+    background: none
+}
+
+.selectric-items ul {
+    background: #00000052
+}
+
+.selectric-items li.highlighted {
+    background: none
+}
+
+.selectric-items li,
+.selectric-items li.highlighted {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'regular';
+    border-bottom: 1px solid #fff;
+    padding: 18px 0;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.selectric-items li:hover {
+    background: #000000;
+    color: #fff;
+}
+
+.reserver .selectric .label::before {
+    content: url('../img/search2.png');
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.selectric .button {
+    display: none
+}
+
+.reserver .ou .selectric .label::before {
+    content: url('../img/local.png');
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.reserver .ou .selectric .label::after {
+    content: url('../img/tracker.png');
+    position: absolute;
+    top: 15px;
+    right: 23px;
+}
+
+header .information {
+    background: transparent;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 10px 9px 20px;
+}
+
+header nav {
+    box-shadow: none;
+}
+
+.emojionearea .emojionearea-picker .emojionearea-search>input {
+    display: none
+}

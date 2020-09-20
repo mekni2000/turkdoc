@@ -1,0 +1,49 @@
+@media screen and (max-width:991px) {
+    header .information {
+        margin: 0
+    }
+    .information {
+        margin: 14px 0;
+    }
+    .information {
+        margin: 14px 0;
+    }
+    .information label {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .information form .row input,
+    .information form .row select {
+        margin-bottom: 17px
+    }
+    .information form .row {
+        margin: auto
+    }
+    .information .radios label {
+        margin-top: 0
+    }
+    .information .form-select::after {
+        padding: 30px 20px
+    }
+    .information .save {
+        margin: 0px auto;
+        padding: 5px;
+    }
+    .information .save a {
+        font-size: 20px
+    }
+    .information h4 {
+        font-size: 21px
+    }
+    .information .Proches-dr div {
+        margin-right: 7px;
+        padding: 5px 15px;
+    }
+    .information .Proches-dr .add {
+        display: flex;
+        align-items: center;
+    }
+    .information .Suppression {
+        margin: 41px 0 25px
+    }
+}

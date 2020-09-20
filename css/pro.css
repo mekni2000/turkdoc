@@ -1,0 +1,164 @@
+header .bg-nav {
+    background-image: url("../img/bg-pro.png");
+    padding-bottom: 0
+}
+
+header .bg-nav .container .row {
+    align-items: center
+}
+
+header .bg-nav .container .row h3 {
+    color: #08264A;
+    font-family: Montserrat;
+    font-size: 35px;
+    letter-spacing: 1.2
+}
+
+header .bg-nav .container .row h4 {
+    color: #08264A;
+    font-size: 23px
+}
+
+header .bg-nav .Accès {
+    margin: 30px 0
+}
+
+header .bg-nav p {
+    color: #2F3A5B;
+    font-size: 18px
+}
+
+header .bg-nav .agenda {
+    margin: 30px 0 50px
+}
+
+header .bg-nav .agenda div {
+    margin-right: 20px
+}
+
+header .bg-nav h5 {
+    color: #08264A;
+    font-size: 24px;
+    font-family: Montserrat-Medium
+}
+
+header .bg-nav .installation .d-flex {
+    margin-top: 20px
+}
+
+.confort .row,
+.confort1 .row,
+.confort2 .row {
+    align-items: center
+}
+
+.confort h4,
+.confort1 h4,
+.confort2 h4 {
+    color: #4A76D7;
+    font-family: Montserrat-Medium;
+    font-size: 35px;
+    line-height: 1.2;
+    margin: 35px 0
+}
+
+.confort p,
+.confort1 p,
+.confort2 p {
+    color: #2F3A5B;
+    font-family: regular;
+    font-size: 20px
+}
+
+.confort .d-flex,
+.confort1 .d-flex,
+.confort2 .d-flex {
+    align-items: baseline;
+}
+
+.confort .d-flex div,
+.confort1 .d-flex div,
+.confort2 .d-flex div {
+    margin-right: 20px
+}
+
+.confort,
+.confort1,
+.confort2 {
+    margin: 70px 0
+}
+
+.plan {
+    background: #F9F8FE;
+    padding: 45px 0
+}
+
+.plan .row {
+    justify-content: space-between
+}
+
+.plan h4 {
+    color: #696969;
+    font-family: Montserrat-Medium;
+    margin: 30px 0
+}
+
+.plan h3 {
+    color: #EC1B1B;
+}
+
+.plan span {
+    color: #C3C3C3;
+    font-size: 18px;
+    font-family: light
+}
+
+.plan p {
+    color: #9E9E9E;
+    font-family: Montserrat-Medium;
+    font-size: 18px
+}
+
+.plan hr {
+    width: 70%;
+}
+
+.plan .text-center {
+    background: #fff;
+    padding: 50px 0;
+    transition: 0.5s all
+}
+
+.plan .text-center:hover {
+    border-top: 2px solid #EC1B1B;
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.plan .get-started {
+    margin: 45px 0
+}
+
+.plan a {
+    color: #EC1B1B;
+    font-size: 20px;
+    font-family: Montserrat;
+    border-radius: 5px;
+    border: 1px solid #EC1B1B;
+    padding: 8px 27px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.plan a:hover {
+    background: #EC1B1B;
+    color: #fff
+}
+
+header {
+    height: auto
+}

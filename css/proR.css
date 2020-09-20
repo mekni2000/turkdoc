@@ -1,0 +1,117 @@
+            @media screen and (max-width:992px) {
+                header .bg-nav .container .row h3 {
+                    font-size: 25px;
+                    margin-top: 49px;
+                }
+                header .bg-nav .container .row h4 {
+                    font-size: 20px
+                }
+                header .bg-nav .Accès {
+                    margin: 21px 0;
+                }
+                header .bg-nav .agenda div {
+                    align-items: baseline
+                }
+                header .bg-nav h5 {
+                    font-size: 20px
+                }
+                header .bg-nav .installation .d-flex {
+                    align-items: baseline
+                }
+                .confort,
+                .confort1,
+                .confort2 {
+                    margin: 9px 0;
+                    font-size: 26px;
+                }
+                .confort p,
+                .confort1 p,
+                .confort2 p {
+                    font-size: 18px
+                }
+                .confort .col-lg-6,
+                .confort1 .col-lg-6,
+                .confort2 .col-lg-6 {
+                    margin-top: 30px
+                }
+                .confort h4,
+                .confort1 h4,
+                .confort2 h4 {
+                    font-size: 22px
+                }
+                header .bg-nav .docteurs {
+                    display: none
+                }
+                header .bg-nav {
+                    padding-bottom: 20px
+                }
+            }
+            
+            @media screen and (max-width:768px) {
+                .confort .row,
+                .confort2 .row {
+                    flex-direction: column-reverse
+                }
+            }
+            
+            @media (min-width:992px) and (max-width:1300px) {
+                header .bg-nav .container .row h3 {
+                    font-size: 25px;
+                    margin-top: 44px;
+                }
+                header .bg-nav .container .row h4 {
+                    font-size: 19px
+                }
+                header .bg-nav p {
+                    font-size: 18px
+                }
+                header .bg-nav .agenda {
+                    margin: 24px 0 17px;
+                }
+                header .bg-nav h5 {
+                    font-size: 18px
+                }
+                header .bg-nav .docteurs {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0
+                }
+                .confort h4,
+                .confort1 h4,
+                .confort2 h4 {
+                    font-size: 30px
+                }
+                .confort p,
+                .confort1 p,
+                .confort2 p {
+                    font-size: 17px
+                }
+                header .installation {
+                    padding-bottom: 20px
+                }
+            }
+            
+            @media (min-width:1301px) and (max-width:1500px) {
+                header .bg-nav .container .row h3 {
+                    font-size: 27px;
+                }
+                header .bg-nav .container .row h4 {
+                    font-size: 21px
+                }
+                header .bg-nav p {
+                    font-size: 17px
+                }
+                header .bg-nav h5 {
+                    font-size: 18px
+                }
+                .confort h4,
+                .confort1 h4,
+                .confort2 h4 {
+                    font-size: 30px
+                }
+                .confort p,
+                .confort1 p,
+                .confort2 p {
+                    font-size: 18px
+                }
+            }

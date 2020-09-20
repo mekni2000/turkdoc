@@ -1,0 +1,624 @@
+                      .reserver h2 {
+                          color: #fff;
+                          font-size: 30px;
+                          font-family: Montserrat;
+                          font-size: 45px;
+                          letter-spacing: 1.5;
+                          margin-bottom: 0
+                      }
+                      
+                      .reserver h3 {
+                          color: #fff;
+                          font-family: Montserrat-Medium;
+                          letter-spacing: 1.4;
+                          font-size: 28px;
+                      }
+                      
+                      .specialistes {
+                          margin: 40px auto;
+                          width: 80%
+                      }
+                      
+                      .specialistes .container,
+                      .marche .container {
+                          text-align: center;
+                      }
+                      
+                      .specialistes h3,
+                      .marche h3 {
+                          color: #08264A;
+                          font-size: 30px;
+                          font-family: Montserrat;
+                      }
+                      
+                      .reserver h2 span {
+                          color: #ec1b1b;
+                      }
+                      
+                      .specialistes p,
+                      .marche p {
+                          font-size: 23px;
+                          color: #757575;
+                          letter-spacing: 1.1;
+                          line-height: 1.2
+                      }
+                      
+                      .specialistes .bg-medecins {
+                          background-image: url('../img/Oval.png');
+                          background-repeat: no-repeat
+                      }
+                      
+                      .marche {
+                          background: #F9F8FE;
+                          padding: 35px 0
+                      }
+                      
+                      .marche .medecin-pro p {
+                          color: #4A4A4A;
+                          font-size: 18px;
+                          font-family: regular;
+                          font-weight: 600;
+                          margin: 30px 0
+                      }
+                      
+                      .marche .medecin-pro {
+                          box-shadow: 0px 0px 9px 1px #cecaca;
+                          border-radius: 2px;
+                          padding: 50px 0 20px;
+                          -o-transition: 0.5s all;
+                          -moz-transition: 0.5s all;
+                          -webkit-transition: 0.5s all;
+                          transition: 0.5s all;
+                      }
+                      
+                      .marche .medecin-pro:hover {
+                          background: #EC1B1B;
+                          -moz-transform: scale(1.1);
+                          -o-transform: scale(1.1);
+                          -webkit-transform: scale(1.1);
+                          transform: scale(1.1);
+                      }
+                      
+                      .marche .medecin-pro a {
+                          color: #EC1B1B;
+                          font-weight: 600;
+                          font-family: regular;
+                          font-size: 20px;
+                          border: 1px solid #EC1B1B;
+                          padding: 11px 32px;
+                          border-radius: 5px;
+                          -webkit-transition: 0.5s all;
+                          -o-transition: 0.5s all;
+                          -moz-transition: 0.5s all;
+                          transition: 0.5s all;
+                      }
+                      
+                      .marche .medecin-pro a:hover,
+                      .marche .medecin-pro a:active {
+                          background: #fff;
+                          color: #EC1B1B !important;
+                      }
+                      
+                      .marche .row {
+                          justify-content: center;
+                          margin: 60px 0
+                      }
+                      
+                      .add-color {
+                          color: #fff !important;
+                          transition: 0.5s all;
+                          -webkit-transition: 0.5s all;
+                          -o-transition: 0.5s all;
+                          -moz-transition: 0.5s all;
+                          transition: 0.5s all;
+                      }
+                      
+                      .add-lien {
+                          color: #fff !important;
+                          border: 1px solid #fff !important;
+                      }
+                      
+                      .Download .Download-app h4 {
+                          color: #08264A;
+                          padding: 12px;
+                          background: #ECFCF8;
+                          width: 50%;
+                          margin: 35px 0;
+                          font-size: 25px;
+                          font-family: Montserrat-Medium
+                      }
+                      
+                      .Download h3 {
+                          color: #08264A;
+                          font-family: Montserrat;
+                          font-size: 50px;
+                          letter-spacing: 1.3;
+                          margin: 30px 0
+                      }
+                      
+                      .Download p {
+                          color: #97A1AC;
+                          font-size: 20px;
+                          font-family: light
+                      }
+                      
+                      .Download .row {
+                          align-items: center
+                      }
+                      
+                      .Download .row .row {
+                          margin: 35px 0
+                      }
+                      
+                      .Download .container {
+                          margin-right: 0
+                      }
+                      
+                      .gris {
+                          margin-left: 8%
+                      }
+                      
+                      .gris .bg-gris {
+                          background: #F9F8FE;
+                          padding: 40px;
+                      }
+                      
+                      .professoinnels h3 {
+                          color: #08264A;
+                          font-family: Montserrat;
+                          letter-spacing: 1.1
+                      }
+                      
+                      .professoinnels h4 {
+                          color: #757575;
+                          font-size: 20px;
+                          letter-spacing: 1.1;
+                          font-family: light
+                      }
+                      
+                      .materiel {
+                          margin: 50px 0
+                      }
+                      
+                      .materiel .besoin-materiaux {
+                          margin-top: 80px
+                      }
+                      
+                      .materiel .besoin-materiaux h3 {
+                          font-size: 35px;
+                          font-weight: bold;
+                          color: #000
+                      }
+                      
+                      .materiel .besoin-materiaux p,
+                      .materiel .owl-carousel .owl-item span {
+                          color: #AEAEAE;
+                          font-size: 17px;
+                          line-height: 1.35;
+                          margin-top: 18px
+                      }
+                      
+                      .materiel .demande-devis2 {
+                          margin-top: 38px;
+                      }
+                      
+                      .materiel .demande-devis2 a {
+                          color: #000;
+                          font-size: 14px;
+                          font-weight: bold;
+                          background: #e8c004;
+                          ;
+                          padding: 13px 25px;
+                          border-radius: 9px;
+                          text-decoration: none;
+                          box-shadow: 0px 0px 4px -1px #000000
+                      }
+                      
+                      .materiel .owl-carousel .owl-item {
+                          padding: 10px 18px;
+                          box-shadow: 1px 0px 19px -15px #443f3f;
+                          transition: 2s all;
+                          padding-bottom: 0;
+                      }
+                      
+                      .materiel .owl-carousel .owl-item img {
+                          width: auto;
+                          display: inline-block;
+                      }
+                      
+                      .materiel .owl-carousel .owl-item p {
+                          font-size: 17px;
+                          font-weight: 550;
+                          color: #000;
+                          text-align: center;
+                          margin: 17px auto;
+                      }
+                      
+                      .materiel .owl-nav {
+                          text-align: center
+                      }
+                      
+                      .materiel .owl-nav button {
+                          outline: none;
+                      }
+                      
+                      .materiel .owl-nav .owl-prev {
+                          margin-right: 25px
+                      }
+                      
+                      .materiel .right-arrow {
+                          width: 42px;
+                      }
+                      
+                      .materiel .owl-carousel .active {
+                          -webkit-transition: 0.5s all;
+                          -o-transition: 0.5s all;
+                          -moz-transition: 0.5s all;
+                          transition: 0.5s all;
+                      }
+                      
+                      .materiel .owl-carousel .active:hover {
+                          background-image: url('../img/bg-slider1.png');
+                      }
+                      
+                      .materiel .list-practice p {
+                          font-size: 18px;
+                          color: #AEAEAE;
+                          font-family: light;
+                          line-height: 1.2;
+                          margin-top: 30px
+                      }
+                      
+                      .materiel .row {
+                          align-items: center;
+                          margin: 40px 0;
+                          justify-content: center
+                      }
+                      
+                      .materiel .container {
+                          max-width: 75%
+                      }
+                      
+                      .materiel .Matériaux {
+                          box-shadow: 0px 3px 17px 4px #dedede;
+                          border-radius: 10px;
+                          padding: 62px 28px;
+                          -o-transition: 0.5s all;
+                          -moz-transition: 0.5s all;
+                          -webkit-transition: 0.5s all;
+                          transition: 0.5s all;
+                      }
+                      
+                      .materiel .Matériaux p {
+                          text-align: center;
+                          color: #242424;
+                          font-family: 'Montserrat-Medium';
+                          font-size: 19px;
+                          margin: 30px 0
+                      }
+                      
+                      .materiel .voir-plus {
+                          margin: 35px 0
+                      }
+                      
+                      .materiel .voir-plus a {
+                          font-size: 20px;
+                          color: #FFFFFF;
+                          font-family: Montserrat;
+                          padding: 10px 19px;
+                          border-radius: 5px;
+                          background: #EC1B1B
+                      }
+                      
+                      .materiel .owl-nav {
+                          margin-top: 30px
+                      }
+                      
+                      .reserver .selectric {
+                          width: 100%;
+                          height: 55px;
+                          padding: 0.65rem .75rem;
+                          text-align: left
+                      }
+                      
+                      .reserver .col {
+                          padding: 0
+                      }
+                      
+                      .reserver .selectric .label {
+                          color: #A29B9B;
+                          font-size: 1rem;
+                          margin-left: 29px;
+                          font-family: Montserrat-Medium;
+                      }
+                      
+                      .reserver .selectric-items {
+                          background: none
+                      }
+                      
+                      .selectric-items ul {
+                          background: #00000052
+                      }
+                      
+                      .selectric-items li.highlighted {
+                          background: none
+                      }
+                      
+                      .selectric-items li,
+                      .selectric-items li.highlighted {
+                          color: #fff;
+                          font-size: 17px;
+                          font-family: 'regular';
+                          border-bottom: 1px solid #fff;
+                          padding: 18px 0;
+                          -webkit-transition: 0.5s all;
+                          -o-transition: 0.5s all;
+                          -moz-transition: 0.5s all;
+                          transition: 0.5s all;
+                      }
+                      
+                      .selectric-items li:hover {
+                          background: #000000;
+                          color: #fff;
+                      }
+                      
+                      .reserver .selectric .label::before {
+                          content: url('../img/search2.png');
+                          position: absolute;
+                          top: 15px;
+                          left: 12px;
+                      }
+                      
+                      .selectric .button {
+                          display: none
+                      }
+                      
+                      .reserver .ou .selectric .label::before {
+                          content: url('../img/local.png');
+                          position: absolute;
+                          top: 15px;
+                          left: 12px;
+                      }
+                      
+                      .reserver .ou .selectric .label::after {
+                          content: url('../img/tracker.png');
+                          position: absolute;
+                          top: 15px;
+                          right: 23px;
+                      }
+                      
+                      .hi-slide>ul>li {
+                          width: 38% !important
+                      }
+                      
+                      .hi-slide,
+                      .hi-slide>ul {
+                          width: 81%;
+                          padding-left: 40px
+                      }
+                      
+                      .specialistes .bg-1 {
+                          background-image: url("../img/bg-spec1.png");
+                          border-radius: 22px;
+                          box-shadow: 1px 2px 11px -2px #4377c5;
+                          margin: 20px 30px;
+                          background-repeat: no-repeat;
+                          background-size: cover
+                      }
+                      
+                      .specialistes .bg-2 {
+                          background-image: url("../img/bg-spec2.png");
+                      }
+                      
+                      .specialistes .bg-3 {
+                          background-image: url("../img/bg-spec3.png");
+                      }
+                      
+                      .specialistes .bg-4 {
+                          background-image: url("../img/bg-spec4.png");
+                      }
+                      
+                      .specialistes .bg-5 {
+                          background-image: url("../img/bg-5.png");
+                      }
+                      
+                      .specialistes .bg-6 {
+                          background-image: url("../img/bg-spec6.png");
+                      }
+                      
+                      .specialistes .opacity-bleu {
+                          background: #1213152e;
+                          width: 100%;
+                          height: 100%;
+                          position: absolute;
+                          top: 0;
+                          left: 0;
+                          border-radius: 22px;
+                      }
+                      
+                      .specialistes .bg-1 .h-150 {
+                          height: 150px;
+                          width: 150px
+                      }
+                      
+                      .specialistes .owl-carousel .spec {
+                          display: flex;
+                          flex-direction: column;
+                          align-items: center;
+                          padding: 63px 0;
+                      }
+                      
+                      .specialistes .owl-carousel .spec p {
+                          color: #08264A;
+                          color: #08264A;
+                          position: absolute;
+                          top: 0;
+                          border: 1px solid #fff;
+                          background: #fff;
+                          border-radius: 50px;
+                          width: 64px;
+                          height: 60px;
+                          padding: 11px;
+                          top: 0;
+                          font-family: regular;
+                          right: 0;
+                          width: 45px;
+                          height: 45px;
+                          padding: 10px 7px;
+                          font-size: 15px
+                      }
+                      
+                      .specialistes .owl-carousel .spec h5 {
+                          font-size: 23px;
+                          color: #fff;
+                          font-family: monteserat;
+                          margin-top: 25px;
+                      }
+                      /*load */
+                      
+                      *,
+                      *::after,
+                      *::before {
+                          padding: 0;
+                          margin: 0;
+                      }
+                      
+                      .main {
+                          top: 50%;
+                          left: 50%;
+                          transform: translate(-50%, -50%);
+                          position: absolute;
+                          transition: all 1s;
+                      }
+                      
+                      .loader {
+                          border-radius: 50%;
+                          border: 3px solid white;
+                          position: relative;
+                      }
+                      
+                      .loader__inner {
+                          width: 4rem;
+                          height: 4rem;
+                          animation: spin 1s infinite linear;
+                      }
+                      
+                      .loader__inner::after {
+                          content: "";
+                          position: absolute;
+                          top: -1px;
+                          left: 0;
+                          width: 4rem;
+                          height: 4rem;
+                          border-radius: 50%;
+                          border-bottom: 6px solid #EC1B1B;
+                      }
+                      
+                      .loader__outer {
+                          position: absolute;
+                          display: flex;
+                          width: 8rem;
+                          height: 8rem;
+                          animation: spin 1s infinite linear reverse;
+                      }
+                      
+                      .loader__outer::after {
+                          content: "";
+                          position: absolute;
+                          top: -1px;
+                          left: 0;
+                          width: 8rem;
+                          height: 8rem;
+                          border-radius: 50%;
+                          border-bottom: 6px solid #EC1B1B;
+                      }
+                      
+                      .main {
+                          background: #268073;
+                          width: 100%;
+                          height: 100%;
+                          z-index: 11111111;
+                          display: flex;
+                          align-items: center;
+                          position: fixed;
+                          justify-content: center
+                      }
+                      
+                      @keyframes spin {
+                          0% {
+                              transform: rotate(0deg);
+                          }
+                          100% {
+                              transform: rotate(360deg);
+                          }
+                      }
+                      
+                      .reserver .animated {
+                          animation-delay: 1.5s;
+                          animation-duration: 1.5s
+                      }
+                      
+                      .p-hide {
+                          display: none
+                      }
+                      
+                      .text-left {
+                          text-align: left;
+                          margin-left: 50px
+                      }
+                      
+                      .reserver .row {
+                          position: relative;
+                          top: 80px;
+                      }
+                      
+                      .blanche {
+                          color: #fff !important
+                      }
+                      
+                      .materiel .Matériaux:hover {
+                          background: #EC1B1B
+                      }
+                      
+                      .marche .medecin-pro {
+                          height: 100%
+                      }
+                      
+                      .marche .medecin-pro0 img {
+                          width: 246px;
+                          height: 227px;
+                      }
+                      
+                      .specialistes .owl-carousel .owl-nav button.owl-next img,
+                      .specialistes .owl-carousel .owl-nav button.owl-prev img {
+                          width: 53%
+                      }
+                      
+                      .specialistes .owl-carousel .owl-nav button.owl-next,
+                      .specialistes .owl-carousel .owl-nav button.owl-prev {
+                          outline: none;
+                          position: absolute;
+                          top: 155px;
+                      }
+                      
+                      .specialistes .owl-carousel .owl-nav button.owl-next {
+                          right: -120px;
+                      }
+                      
+                      .specialistes .owl-carousel .owl-nav button.owl-prev {
+                          left: -120px
+                      }
+                      
+                      .materiel .Matériaux a .text-center {
+                          position: absolute;
+                          bottom: 15px;
+                          left: 44%
+                      }
+                      
+                      .materiel .Matériaux {
+                          height: 360px
+                      }
+                      
+                      .modal-backdrop.show {
+                          display: none !important
+                      }

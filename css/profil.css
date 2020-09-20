@@ -1,0 +1,52 @@
+    .rendez-vous .rendez-vous1 .rendez-vous2 a {
+        padding: 16px 33px;
+        font-size: 17px;
+        background: #C0CCDA;
+        border: 1px solid #DDE0EC;
+        box-shadow: 0px 3px 20px -1px #C0CCDA;
+    }
+    
+    .rendez-vous {
+        margin: 70px 0
+    }
+    
+    .rendez-vous .rendez-vous1 .Demander-avis a {
+        font-size: 17px;
+        padding: 16px;
+        border: 1px solid #C0CCDA;
+        box-shadow: 0px 3px 20px -1px #C0CCDA;
+    }
+    
+    .rendez-vous h4 {
+        font-family: Montserrat
+    }
+    
+    .rendez-vous .rendez-vous1 {
+        justify-content: center;
+    }
+    
+    .rendez-vous .presentation {
+        box-shadow: -1px 4px 10px 2px #e8edf3;
+        padding: 30px 16px 19px;
+        border-radius: 10px;
+        margin-top: 36px;
+        align-items: center
+    }
+    
+    .rendez-vous .presentation.row {
+        background: #fbfbfb
+    }
+    
+    .rendez-vous .presentation h4 {
+        color: #08264A;
+        font-family: Regular
+    }
+    
+    .rendez-vous .presentation p {
+        color: #9CA2A8;
+        font-family: light
+    }
+    
+    header .reserver {
+        width: 60%
+    }

@@ -1,0 +1,22 @@
+@media screen and (max-width:991px) {
+    .question-section {
+        width: 100%;
+        padding: 22px 15px;
+    }
+    .question-section .question {
+        padding: 6px 9px;
+    }
+    .question-section h3 {
+        text-align: left;
+        font-size: 17px;
+    }
+    .question-section .d-flex {
+        margin: 9px 0
+    }
+    .question-section label {
+        font-size: 17px
+    }
+    header .information {
+        padding: 0
+    }
+}

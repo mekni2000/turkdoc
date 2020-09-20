@@ -1,0 +1,437 @@
+        @media (min-width:1700px) {
+            .progress-bar1 .bg-blanche.col-lg-3,
+            .next .bg-blanche.col-lg-3 {
+                max-width: 22%;
+                margin-right: 3%
+            }
+            .progress-bar1 .bg-blanche.col-lg-4,
+            .next .bg-blanche.col-lg-4 {
+                max-width: 30.333%;
+                margin-right: 3%
+            }
+        }
+        
+        @media screen and (max-width:991px) {
+            .message,
+            .patient,
+            .info-pro,
+            .mon-compte,
+            .Effective,
+            .progress-bar1,
+            .Availability1,
+            .next {
+                display: block
+            }
+            .message {
+                display: block
+            }
+            .fc-toolbar.fc-header-toolbar,
+            .fc-right {
+                display: block;
+                text-align: center
+            }
+            .Availability1 {
+                text-align: center
+            }
+            .fc-button-group>.fc-button {
+                padding: 10px 26px;
+            }
+            .fc-right,
+            .Availability1 .looking {
+                margin-top: 30px
+            }
+            .fc table span {
+                font-size: 14px
+            }
+            .fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+                font-size: 15px
+            }
+            .fc th {
+                padding: 6px 0;
+            }
+            .Availability1 .looking input {
+                margin: auto;
+                width: 100%
+            }
+            .Availability1 .Séance {
+                justify-content: center
+            }
+            .Availability1 .Availability-Séance select {
+                width: 100px
+            }
+            .Availability1 .Séance::after {
+                display: contents;
+            }
+            .navbar-light .navbar-toggler {
+                margin: 0px 20px
+            }
+            header nav .navbar-nav {
+                width: 100%;
+                text-align: center
+            }
+            header nav .navbar-nav a {
+                justify-content: center
+            }
+            header nav .form-inline {
+                flex-direction: column-reverse
+            }
+            .width-input {
+                width: 80% !important;
+            }
+            .navbar-collapse {
+                background: #cb1717;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .navbar-light .navbar-nav .nav-link {
+                color: #fff !important
+            }
+            header nav .search {
+                margin: 16px 30px 0;
+                color: #fff !important
+            }
+            .chat .message .search {
+                margin-top: 0;
+            }
+            .chat .message .discussion {
+                padding: 20px 30px
+            }
+            .chat .message .discussion .p-0 {
+                padding-left: 15px !important;
+            }
+            .chat .message .img-profil {
+                margin-bottom: 20px
+            }
+            .chat .message .point-vert {
+                left: 57px;
+            }
+            .chat .discussion1 {
+                margin: 0px 0px;
+                padding: 38px 0;
+            }
+            .chat .discussion1 .discussion1-text .bg-bleu,
+            .chat .discussion1 .discussion1-text .bg-gris {
+                padding: 21px 12px 5px;
+            }
+            .chat .discussion1 .img-profil {
+                text-align: left
+            }
+            .discussion1 .bg-vert {
+                left: 40px;
+            }
+            .navbar-light .navbar-toggler {
+                position: absolute;
+                top: 25px;
+                right: 0
+            }
+            header nav .form-inline {
+                padding: 53px 00 4px
+            }
+            .dashboard {
+                margin-top: 96px;
+                padding-left: 0 !important
+            }
+            .next .table,
+            .patient .table {
+                padding: 19px;
+                display: block;
+                overflow: scroll;
+                margin-top: 30px;
+                margin: auto
+            }
+            .progress-bar1 .bg-blanche,
+            .next .bg-blanche {
+                margin-top: 30px
+            }
+            .chat .container-fluid {
+                width: 95%
+            }
+            .progress-bar1 .date p,
+            .next .date p {
+                font-size: 20px;
+                margin-bottom: 0
+            }
+            .progress-bar1 .date .mois p,
+            .next .date .mois p {
+                font-size: 18px
+            }
+            .patient .telecharger,
+            .next .telecharger {
+                display: block
+            }
+            .patient .telecharger div,
+            .next .telecharger div {
+                margin-top: 20px
+            }
+            .telecharger1 .text-right {
+                text-align: center !important;
+                line-height: 1.7;
+                margin-top: 20px
+            }
+            .patient .table tbody tr td,
+            .next .table tbody tr td {
+                padding: 0 35px;
+                font-size: 17px
+            }
+            .patient .table thead tr th,
+            .next .table thead tr th {
+                font-size: 17px
+            }
+            .patient .consultation-fade .margin-date,
+            .next .consultation-fade .margin-date {
+                margin: 0 -35px
+            }
+            .progress-bar1 .Appointments h5,
+            .next .Appointments h5 {
+                font-size: 16px
+            }
+            .next .Appointments h6 {
+                font-size: 12px
+            }
+            .progress-bar1 .pourcentage,
+            .next .pourcentage {
+                width: 61px;
+                margin: 26px 0
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr1 hr,
+            .next .line-progress .progress-rotate .hr1 hr {
+                width: 50px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr2 hr,
+            .next .line-progress .progress-rotate .hr2 hr {
+                width: 62px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr3 hr,
+            .next .line-progress .progress-rotate .hr3 hr {
+                width: 27px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr4 hr,
+            .next .line-progress .progress-rotate .hr4 hr {
+                width: 48px;
+            }
+            .progress-bar1 .Appointments .progress-rotate1,
+            .next .Appointments .progress-rotate1 {
+                width: 60px
+            }
+            .progress-bar1 .pourcentage.resolved,
+            .next .pourcentage.resolved {
+                width: 62px
+            }
+            .progress-bar1 .line-progress .progress-rotate,
+            .next .line-progress .progress-rotate {
+                width: 60px
+            }
+            .info-pro .margin-left {
+                margin-left: 0
+            }
+            .mes-information .radios span {
+                font-size: 15px
+            }
+            .mes-information .radio-wrap {
+                margin-right: 16px;
+            }
+            .mes-information .radio-wrap>label {
+                top: -26px;
+                left: 10px;
+            }
+            .mes-information .container {
+                max-width: 100%
+            }
+            .mes-information label {
+                margin-top: 30px
+            }
+            .info-pro .margin-left {
+                margin: 38px 15px;
+            }
+            .plan .text-center {
+                margin-top: 25px;
+            }
+            .chat .chatting-bar {
+                display: none
+            }
+            nav .chatting-bar a {
+                font-family: Montserrat-Medium;
+                color: #fff;
+                font-size: 20px;
+                text-decoration: none
+            }
+            nav .chatting-lien {
+                border-bottom: 1px solid #f4b8b8;
+                padding: 20px;
+            }
+        }
+        
+        @media (min-width:768px) and (max-width:991px) {
+            .Availability1 .Séance {
+                justify-content: flex-end
+            }
+            .plan .text-center {
+                margin-top: 25px;
+                padding: 49px 2px;
+                max-width: 32.33333333%;
+            }
+            .progress-bar1 .pourcentage.resolved,
+            .next .pourcentage.resolved {
+                width: 97px;
+            }
+        }
+        
+        @media (min-width:992px) and (max-width:1199px) {
+            header nav .navbar-nav {
+                width: 25%
+            }
+            .progress-bar1 .margin-top1 {
+                margin-top: 20px
+            }
+            .progress-bar1 {
+                padding: 0px 33px
+            }
+            .progress-bar1 .Today-11 h6:first-of-type,
+            .next h6:first-of-type {
+                font-size: 18px
+            }
+            .progress-bar1 .Today-11 h6:last-of-type,
+            .next h6:first-of-type {
+                font-size: 17px
+            }
+            .progress-bar1 .date p,
+            .next .date p {
+                font-size: 20px
+            }
+            .progress-bar1 .date .mois p,
+            .next .date .mois p {
+                font-size: 19px
+            }
+            .progress-bar1 .Appointments h5,
+            .next .Appointments h5 {
+                font-size: 17px
+            }
+            .progress-bar1 .Appointments p,
+            .next .Appointments p {
+                font-size: 16px
+            }
+            .progress-bar1 .Appointments p span,
+            .next .Appointments p span {
+                font-size: 25px
+            }
+            .progress-bar1 .Appointments,
+            .next .Appointments {
+                margin-right: 0;
+                padding: 34px 3px 18px;
+            }
+            .progress-bar1 .pourcentage,
+            .next .pourcentage {
+                width: 41px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr1 hr,
+            .next .line-progress .progress-rotate .hr1 hr {
+                width: 50px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr2 hr,
+            .next .line-progress .progress-rotate .hr2 hr {
+                width: 62px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr3 hr,
+            .next .line-progress .progress-rotate .hr3 hr {
+                width: 27px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr4 hr,
+            .next .line-progress .progress-rotate .hr4 hr {
+                width: 48px;
+            }
+            .progress-bar1 .Appointments .progress-rotate1,
+            .next .Appointments .progress-rotate1 {
+                width: 60px
+            }
+            .progress-bar1 .pourcentage.resolved,
+            .next .pourcentage.resolved {
+                width: 62px
+            }
+            .progress-bar1 .line-progress .progress-rotate,
+            .next .line-progress .progress-rotate {
+                width: 60px
+            }
+            .progress-bar1 .pourcentage h6,
+            .next .pourcentage h6 {
+                font-size: 13px;
+            }
+        }
+        
+        @media (min-width:1200px) and (max-width:1499px) {
+            .progress-bar1 .Appointments h5,
+            .next .Appointments h5 {
+                font-size: 17px
+            }
+            .progress-bar1 .pourcentage,
+            .next .pourcentage {
+                width: 41px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr1 hr,
+            .next .line-progress .progress-rotate .hr1 hr {
+                width: 50px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr2 hr,
+            .next .line-progress .progress-rotate .hr2 hr {
+                width: 62px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr3 hr,
+            .next .line-progress .progress-rotate .hr3 hr {
+                width: 27px;
+            }
+            .progress-bar1 .line-progress .progress-rotate .hr4 hr,
+            .next .line-progress .progress-rotate .hr4 hr {
+                width: 48px;
+            }
+            .progress-bar1 .Appointments .progress-rotate1,
+            .next .Appointments .progress-rotate1 {
+                width: 60px
+            }
+            .progress-bar1 .pourcentage.resolved,
+            .next .pourcentage.resolved {
+                width: 64px;
+                margin-left: -10px;
+            }
+            .progress-bar1 .line-progress .progress-rotate,
+            .next .line-progress .progress-rotate {
+                width: 60px
+            }
+            .progress-bar1 .Appointments,
+            .next .Appointments {
+                padding: 35px 0px 31px;
+                margin-right: -5px;
+            }
+            .progress-bar1 .pourcentage h6,
+            .next .pourcentage h6 {
+                font-size: 13px;
+            }
+            .progress-bar1 {
+                padding: 10px 20px
+            }
+            .progress-bar1 .Appointments p span,
+            .next .Appointments p span {
+                font-size: 22px
+            }
+            .progress-bar1 .pourcentage h6 a,
+            .next.pourcentage h6 a {
+                font-size: 12px
+            }
+            .progress-bar1 .Today-11 h6:first-of-type,
+            .next h6:first-of-type {
+                font-size: 19px
+            }
+            .progress-bar1 .Today-11 h6:last-of-type,
+            .next h6:first-of-type {
+                font-size: 18px
+            }
+            .progress-bar1 .date p,
+            .next .date p {
+                font-size: 21px
+            }
+            .progress-bar1 .date .mois p,
+            .next .date .mois p {
+                font-size: 18px
+            }
+            .patient {
+                padding: 0px 57px;
+            }
+        }

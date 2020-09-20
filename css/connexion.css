@@ -1,0 +1,12 @@
+.rester {
+    justify-content: space-between !important;
+    margin: 10px 0 0
+}
+
+.rester .form-check {
+    padding-left: 30px
+}
+
+.bienvenue {
+    display: none
+}

@@ -1,0 +1,187 @@
+            @media screen and (max-width:992px) {
+                .pagination .owl-carousel {
+                    margin-left: 0
+                }
+                .pagination .owl-carousel .owl-nav button.owl-prev,
+                .pagination .owl-carousel .owl-nav button.owl-next {
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                    right: auto
+                }
+                .pagination .owl-nav {
+                    text-align: center
+                }
+                .filtre .selectric .label {
+                    margin-left: 0
+                }
+                .filtre .selectric-wrapper {
+                    margin-right: 0
+                }
+                .filtre .select-apparence::after {
+                    padding: 39px 21px
+                }
+                .rendez-vous .mt-5 {
+                    margin-top: 0 !important;
+                    text-align: center
+                }
+                .rendez-vous h5 {
+                    font-size: 18px;
+                    line-height: 1.3
+                }
+                .rendez-vous .dr-jhon1,
+                .rendez-vous .dr-jhon2 {
+                    margin-top: 40px
+                }
+                .rendez-vous .rendez-vous1 .Demander-avis a {
+                    font-size: 17px;
+                    padding: 16px 17px;
+                }
+                .rendez-vous .rendez-vous1 .rendez-vous2 a {
+                    padding: 16px 42px;
+                    font-size: 17px;
+                }
+                .rendez-vous .rendez-vous1 .mr-3 {
+                    margin-right: 0 !important
+                }
+                .rendez-vous .google-map p {
+                    font-size: 15px
+                }
+                .Download .Download-app h4 {
+                    width: 100%;
+                    font-size: 18px
+                }
+                .Download .container {
+                    margin-right: auto;
+                }
+                .Download h3 {
+                    font-size: 28px
+                }
+                .Download p {
+                    font-size: 18px
+                }
+                .rendez-vous {
+                    text-align: center
+                }
+                .select-apparence {
+                    width: 100%
+                }
+                header .reserver {
+                    width: 100%
+                }
+                .date-rendezVous .modal-content {
+                    height: auto;
+                    padding: 0px 10px;
+                }
+                .date-rendezVous .modal-dialog {
+                    max-width: 85%;
+                    margin: auto
+                }
+                .date-rendezVous .modal-footer {
+                    justify-content: center
+                }
+                .etapes-rv .d-flex p {
+                    text-align: left;
+                    margin-bottom: 5px
+                }
+                .etapes-rv .d-flex .border-number {
+                    text-align: center
+                }
+                .etapes-rv {
+                    margin-top: 20px
+                }
+                .date-rendezVous .dr-jhon2 .radios.d-flex {
+                    display: block !important;
+                }
+                .date-rendezVous .dr-jhon2 .radios.d-flex .text-center {
+                    text-align: left !important
+                }
+                .date-rendezVous .radios span {
+                    margin-left: 20px
+                }
+                .date-rendezVous label {
+                    text-align: left
+                }
+                .date-rendezVous .dr-jhon2 {
+                    text-align: left
+                }
+                .date-rendezVous .coordonnes label {
+                    margin-top: 20px
+                }
+                .date-rendezVous .coordonnes .mme label {
+                    margin-top: auto
+                }
+            }
+            
+            @media screen and (max-width:576px) {
+                .rendez-vous .rendez-vous1 {
+                    display: block;
+                }
+            }
+            
+            @media (min-width:768px) and (max-width:991px) {
+                .date-rendezVous .dr-jhon2 .radios.d-flex {
+                    display: flex !important
+                }
+            }
+            
+            @media (min-width:992px) and (max-width:1200px) {
+                .select-apparence {
+                    width: 30%;
+                    margin: 5px 0
+                }
+                .filtre .row {
+                    justify-content: center;
+                }
+                .rendez-vous .rendez-vous1 {
+                    display: block;
+                    text-align: center
+                }
+                .rendez-vous .Demander-avis {
+                    margin: 0 0 50px !important
+                }
+                .rendez-vous .rendez-vous1 .Demander-avis a {
+                    font-size: 17px;
+                    padding: 10px 18px;
+                }
+                .rendez-vous .rendez-vous1 .rendez-vous2 a {
+                    font-size: 17px;
+                    padding: 10px 42px;
+                }
+                .rendez-vous .google-map {
+                    padding: 0
+                }
+                .rendez-vous .google-map iframe {
+                    height: 300px;
+                }
+                header .reserver {
+                    width: 100%;
+                }
+                .date {
+                    display: block;
+                    line-height: 3
+                }
+                .filtre h3 {
+                    font-size: 27px
+                }
+                .reserver {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+                .reserver form {
+                    margin-top: 0
+                }
+            }
+            
+            @media (min-width:1201px) and (max-width:1500px) {
+                .rendez-vous .rendez-vous1 .Demander-avis a {
+                    padding: 16px 10px;
+                }
+                .rendez-vous .rendez-vous1 .rendez-vous2 a {
+                    padding: 16px 20px;
+                }
+            }

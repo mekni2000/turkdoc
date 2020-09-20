@@ -1,0 +1,914 @@
+.home-dashboard .container-fluid {
+    padding-left: 0
+}
+
+.home-dashboard .dashboard-bg {
+    background: #F8F8F8;
+    text-align: center;
+    max-width: 6.3333%;
+    padding-top: 8%;
+    padding-right: 0;
+}
+
+.home-dashboard .logo-dashboard {
+    margin-top: 30px;
+    transition: 0.5s all
+}
+
+.home-dashboard .logo-dashboard:hover,
+.home-dashboard .logo-dashboard:active {
+    color: #EEC400;
+    border-right: 2px solid #EEC400;
+}
+
+.home-dashboard .dashbord-devis {
+    padding: 50px 75px;
+}
+
+.home-dashboard .liste-devis {
+    margin: 30px 0
+}
+
+.color-gris {
+    color: #686868;
+    font-size: 19px
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.home-dashboard .dashbord-devis p {
+    color: #AFAFAF;
+    font-size: 20px;
+}
+
+.home-dashboard .num-checkbox td {
+    font-size: 20px;
+    color: #757575;
+}
+
+.home-dashboard .num-checkbox .accepte {
+    color: #EEC400
+}
+
+.home-dashboard .button-demande {
+    justify-content: flex-end;
+}
+
+.home-dashboard .button-demande a {
+    background: #EEC400;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 19px;
+    border-radius: 7px;
+}
+
+.home-dashboard label {
+    color: #757575
+}
+
+.home-dashboard .num-checkbox label {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.home-dashboard .dashbord-devis .devis-p {
+    color: #747F92;
+    font-weight: 600 !important;
+    letter-spacing: 1.1
+}
+
+.home-dashboard .nombre-demande {
+    color: #757575;
+    font-size: 19px;
+    position: absolute;
+    bottom: 0
+}
+
+.home-dashboard .num-checkbox {
+    line-height: 2.5;
+}
+
+.home-dashboard tr {
+    border-bottom: 1px solid #D1D8F5;
+    line-height: 2.5
+}
+
+.home-dashboard .dashbord-devis p span {
+    color: #717171
+}
+
+.home-dashboard .dashbord-devis .liste-devis ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0
+}
+
+.home-dashboard .dashbord-devis .liste-devis ul li {
+    margin-right: 50px
+}
+
+.home-dashboard .dashbord-devis .liste-devis ul li a {
+    color: #686868;
+    transition: 0.5s all;
+    font-size: 19px
+}
+
+.homem-dashboard .active-shopping {
+    border-right: 1px solid #EEC400;
+}
+
+.home-dashboard .dashbord-devis .liste-devis ul li .active,
+.home-dashboard .dashbord-devis .liste-devis ul li a:hover,
+.home-dashboard .dashbord-devis .liste-devis ul li a:active {
+    color: #EEC400;
+    font-weight: bold;
+    border-bottom: 2px solid #EEC400;
+    padding-bottom: 7px;
+}
+
+
+/*checkbox*/
+
+.home-dashboard .devis input,
+.home-dashboard .panier input,
+.home-dashboard .devis-Managements input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    left: 70px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.home-dashboard input:checked~.checkmark:after {
+    display: block;
+}
+
+.home-dashboard input:checked~.checkmark {
+    background-color: #EEC400;
+}
+
+.home-dashboard label.container {
+    margin-left: 15px
+}
+
+.home-dashboard .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.home-dashboard .num-checkbox td ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-evenly
+}
+
+.home-dashboard .mask {
+    margin-left: -62px;
+    margin-right: 13px;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.store .row .col-lg-1 {
+    max-width: 6.3333%;
+}
+
+.store .row {
+    align-items: center
+}
+
+.store .application span {
+    color: #EEC400;
+}
+
+.store .application h6 {
+    color: #232323;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.store .application p {
+    color: #747F92;
+    font-size: 17px;
+    line-height: 1.2
+}
+
+.store .application-ios {
+    margin-top: 30px;
+}
+
+.store .application .application-ios p {
+    font-size: 25px;
+    color: #747F92;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+.store .code-img p {
+    font-size: 14px;
+    font-weight: 550;
+    color: #747F92;
+    line-height: 1.08;
+    font-weight: 550
+}
+
+.store .code-img {
+    text-align: center;
+    margin-left: 35px;
+}
+
+.contrat {
+    background: #EEC400;
+    padding: 9px 0
+}
+
+.contrat .container-fluid p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0
+}
+
+.contrat .client {
+    text-align: center;
+}
+
+header nav {
+    box-shadow: none
+}
+
+footer {
+    background: linear-gradient(to top, #232222eb 0%, #232222 100%);
+    padding: 36px 0 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center
+}
+
+footer ul li {
+    margin-left: 15px;
+}
+
+.dashbord-devis hr {
+    width: calc(100% + 170px);
+    margin: 40px 0 40px -75px
+}
+
+.home-dashboard .banque .Paiement,
+.passer-paiement .Paiement {
+    border-bottom: 2px solid #EEC400;
+    padding-bottom: 14px;
+}
+
+.home-dashboard .banque .Paiement span,
+.passer-paiement .Paiement span {
+    color: #EEC400;
+    letter-spacing: 1.2;
+    font-weight: 600;
+    font-size: 20px
+}
+
+.home-dashboard .banque h3,
+.passer-paiement h3 {
+    color: #747F92;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.home-dashboard .banque .form-check-label,
+.passer-paiement .form-check-label {
+    color: #747F92;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.02;
+    margin-bottom: 11px;
+}
+
+.home-dashboard .banque .inputAddress,
+.passer-paiement .inputAddress {
+    color: #B8B8B8;
+    font-size: 17px;
+}
+
+.home-dashboard .banque .p-label,
+.passer-paiement .p-label {
+    color: #788995;
+    line-height: 1.3;
+    font-size: 17px;
+}
+
+.home-dashboard .banque .visa-carte,
+.passer-paiement .visa-carte {
+    text-align: right
+}
+
+.home-dashboard .banque .visa-carte span,
+.passer-paiement .visa-carte span {
+    color: #EEC400;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.home-dashboard .banque .border-visa,
+.passer-paiement .border-visa {
+    border: 1px solid #DDE3E8;
+    margin-top: 30px;
+    padding: 35px 35px 30px;
+    border-radius: 5px;
+}
+
+.home-dashboard .banque .border-visa input[type=text],
+.passer-paiement .border-visa input[type=text] {
+    padding: 25px 15px
+}
+
+.home-dashboard .banque .information,
+.home-dashboard .banque .Résumé,
+.passer-paiement .information,
+.passer-paiement .Résumé {
+    border: 1px solid #DDE3E8;
+    padding: 26px 20px 11px;
+    border-radius: 5px;
+    margin-top: 78px;
+}
+
+.home-dashboard .banque .Résumé,
+.passer-paiement .Résumé {
+    margin-top: 30px;
+}
+
+.home-dashboard .banque .Résumé .d-flex,
+.passer-paiement .Résumé .d-flex {
+    margin-bottom: 25px
+}
+
+.home-dashboard .banque .Résumé p,
+.passer-paiement .Résumé p {
+    font-size: 18px;
+    color: #1D1D1B
+}
+
+.home-dashboard .banque .Résumé span,
+.passer-paiement .Résumé span {
+    color: #1D1D1B;
+    font-weight: 600;
+    font-size: 19px
+}
+
+.home-dashboard .banque .information p,
+.passer-paiement .information p {
+    font-size: 17px;
+    color: #1D1D1B;
+    font-weight: 600;
+}
+
+.home-dashboard .banque .information .info-livraison p,
+.passer-paiement .information .info-livraison p {
+    font-size: 19px;
+    color: #1D1D1B;
+    font-weight: 600;
+}
+
+.home-dashboard .banque .information span,
+.passer-paiement .information span {
+    font-size: 17px;
+    font-weight: 400;
+    color: #838382
+}
+
+.home-dashboard .banque .information .d-flex,
+.passer-paiement .information .d-flex {
+    line-height: 1.2;
+}
+
+.home-dashboard .banque .information .info-livraison,
+.passer-paiement .information .info-livraison {
+    margin-bottom: 25px;
+}
+
+.home-dashboard .banque .valider,
+.passer-paiement .valider {
+    background: #EEC400;
+    text-align: center;
+    font-size: 21px;
+    color: #fff;
+    padding: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.profile .profile-info p {
+    color: #747F92;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.profile .form-control {
+    padding: 25px 10px;
+    transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+
+.profile .form-control:focus {
+    border: 1px solid #FEDC08;
+    box-shadow: 1px 1px 5px -1px #FEDC08;
+}
+
+.profile .coutry select,
+.profile .code-postal select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+
+.profile .coutry .select-country ::after {
+    content: '\25BC';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 17px 21px;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    background: transparent;
+    color: #747F92;
+}
+
+.profile .code-postal::after {
+    content: 'FIND';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 13px 21px;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    background: transparent;
+    color: #FEDC08;
+    font-weight: 600;
+    font-size: 18px;
+    border-left: 1px solid #ECECEC;
+}
+
+.profile .save button {
+    background: #EEC400;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 9px 57px;
+    border: none;
+}
+
+.profile .save button:active {
+    box-shadow: none;
+    background-color: #EEC400 !important;
+    border-color: #EEC400 !important;
+    box-shadow: 1px 1px #EEC400
+}
+
+.profile label {
+    color: #B7B7B7;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.telechargement .commande {
+    font-weight: 600;
+    color: #B2B2B2;
+    font-size: 20px;
+    letter-spacing: 1.1;
+}
+
+.telechargement .telecharger-devis {
+    color: #EEC400;
+}
+
+.telechargement .success {
+    justify-content: flex-end;
+}
+
+.telechargement .hr-jaune {
+    width: 100%;
+    position: relative;
+}
+
+.telechargement .hr-jaune hr {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #B2B2B2;
+    margin-top: 30px;
+}
+
+.telechargement .hr-jaune .first {
+    width: 25%;
+    border: 2px solid #EEC400;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 2
+}
+
+.telechargement .COMPANY {
+    background: #FBFBFB;
+    border: 1px solid #ECECEC;
+    padding: 75px 50px;
+}
+
+.telechargement .logo img {
+    width: 100%;
+}
+
+.telechargement ul {
+    list-style: none;
+    line-height: 1.7;
+    padding-left: 0
+}
+
+.telechargement .your-company {
+    text-align: right;
+}
+
+.telechargement li,
+.telechargement .Invoice span {
+    color: #828691;
+    font-size: 17px;
+}
+
+.telechargement .COMPANY p {
+    color: #1F2229;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.telechargement .Invoice {
+    text-align: right;
+    padding-top: 30px
+}
+
+.telechargement .Invoice p {
+    margin-bottom: 0
+}
+
+.telechargement .Invoice h4 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #1F2229;
+}
+
+.telechargement .SUBTOTAL .row {
+    border-bottom: 1px solid #E7E8EC;
+    padding: 16px 0 0;
+}
+
+.telechargement .SUBTOTAL p {
+    color: #9DA8BB;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.1;
+}
+
+.telechargement .total-jaune p {
+    color: #1F2229;
+}
+
+.table td,
+.table th {
+    letter-spacing: 1.1
+}
+
+.telechargement .table {
+    margin-bottom: 0
+}
+
+.telechargement .total-jaune span {
+    color: #EEC400;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.telechargement .table thead th {
+    color: #9DA8BB
+}
+
+.telechargement tr .weight-400 {
+    color: #1F2229;
+    font-weight: 400
+}
+
+.telechargement .transfer .bank {
+    color: #9DA8BB;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px
+}
+
+.telechargement .transfer span {
+    font-size: 16px;
+    color: #1F2229
+}
+
+.telechargement .transfer .dot {
+    background: #0099FF;
+    border-radius: 50%;
+    margin: 0px 20px;
+    width: 10px;
+    height: 10px;
+    margin: 0px 20px;
+    margin-top: 7px;
+}
+
+.telechargement .transfer .transfer-end {
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+
+.telechargement .transfer {
+    margin-top: 50px;
+}
+
+.telechargement .transfer p {
+    line-height: 1.2
+}
+
+.telechargement .font-16 {
+    font-size: 18px !important
+}
+
+.telechargement .notes {
+    margin-top: 50px
+}
+
+.telechargement .notes p {
+    font-size: 19px;
+    line-height: 1.2;
+}
+
+.telechargement .notes .footer {
+    margin-top: 30px;
+}
+
+.telechargement .notes hr {
+    width: 100%;
+    margin: 70px auto 0px;
+    border: 2px solid #ECECEC
+}
+
+.telechargement .notes h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1F2229;
+    margin-bottom: 15px;
+}
+
+.telechargement .notes .footer p {
+    font-size: 17px
+}
+
+.telechargement .telecharger-devis h4,
+.uploader h4,
+.service h4 {
+    color: #747F92;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.telechargement .telecharger-devis p,
+.uploader p,
+.service p {
+    font-size: 17px;
+}
+
+.telechargement .telecharger-devis .btn-telecharger,
+.uploader .suivant,
+.service .envoyer {
+    margin: 30px 0;
+}
+
+.telechargement .telecharger-devis .btn-telecharger a,
+.uploader .suivant a,
+.service a {
+    font-size: 25px;
+    background: #EEC400;
+    text-decoration: none;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 5px
+}
+
+.uploader .commande {
+    font-weight: 600;
+    color: #B2B2B2;
+    font-size: 20px;
+    letter-spacing: 1.1;
+}
+
+.uploader .telecharger-devis {
+    color: #EEC400;
+}
+
+.uploader .hr-jaune .first,
+.passer-paiement .hr-jaune .first {
+    width: 70%;
+    border: 2px solid #EEC400;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 2;
+}
+
+.passer-paiement .hr-jaune .first {
+    width: 100%
+}
+
+.uploader .hr-jaune,
+.passer-paiement .hr-jaune {
+    width: 100%;
+    position: relative;
+}
+
+.uploader .success {
+    justify-content: flex-end;
+}
+
+.uploader .hr-jaune hr {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #B2B2B2;
+    margin-top: 30px;
+}
+
+.uploader .border-picure {
+    border: 3px dashed #C2CDDA;
+    border-radius: 9px;
+    padding: 199px 10px;
+}
+
+.uploader .drag {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555A6B;
+}
+
+.uploader .picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.uploader .padding-picture {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.uploader .browse-file a {
+    padding: 10px 30px;
+    background: #EEC400;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.service label {
+    color: #B7B7B7;
+    font-size: 19px;
+    margin-top: 30px
+}
+
+.service select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    height: 55px;
+}
+
+.service .reason::after {
+    content: '\25BC';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 17px 21px;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    margin-right: 3rem!important;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    background: transparent;
+    color: #747F92;
+}
+
+.passer-paiement .commande span {
+    color: #EEC400;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1.1;
+}
+
+.passer-paiement .paie {
+    margin-top: 100px
+}
+
+.passer-paiement .success {
+    justify-content: flex-end
+}
+
+.promotions .offres .date-orange {
+    margin-left: 20px;
+    color: #F29D32;
+}
+
+.promotions .offres .ingco-rouge {
+    color: #FF5B5B;
+}
+
+.promotions .offres-ingco {
+    margin: 30px 0
+}
+
+.promotions .offres-ingco p {
+    margin-bottom: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.2;
+}
+
+.promotions .date {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px
+}
+
+.promotions .date p {
+    font-size: 20px
+}
+
+.promotions .offres-ingco img {
+    width: 100%
+}
+
+.panier,
+.devis-Managements,
+.banque,
+.profile,
+.telechargement,
+.uploader,
+.service,
+.passer-paiement,
+.promotions {
+    display: none;
+}
+
+.border-jaune {
+    border-right: 2px solid #EEC400
+}

@@ -1,0 +1,110 @@
+        @media screen and (max-width:991px) {
+            .selectric-wrapper {
+                margin-bottom: 17px;
+            }
+            .user-dashboard .user h2 {
+                font-size: 20px
+            }
+            .user-dashboard .user h4 {
+                font-size: 18px
+            }
+            .user-dashboard .user-docteur .rendez-vous h3,
+            .user-dashboard .user-docteur .docteur h3,
+            .user-dashboard h2 {
+                font-size: 20px
+            }
+            .dr-img {
+                margin: 20px 0
+            }
+            .user-dashboard .user-docteur .docteur span {
+                font-size: 16px
+            }
+            .user-dashboard .user-docteur .docteur iframe {
+                margin-top: 20px
+            }
+            .user-dashboard .user-docteur .ajout-calendrier a,
+            .user-dashboard .user-docteur .rdv a,
+            .user-dashboard .user-docteur .annuler button {
+                font-size: 16px
+            }
+            .user-dashboard .user-docteur .annuler,
+            .user-dashboard .user-docteur .rdv {
+                text-align: center
+            }
+            .user-dashboard .trouver-docteur {
+                width: 100%;
+            }
+            .user-dashboard .trouver-docteur a {
+                font-size: 16px
+            }
+            .user-dashboard .ajout-calendrier {
+                text-align: center
+            }
+            .user-dashboard {
+                text-align: center
+            }
+            header .reserver {
+                width: 100%;
+            }
+            .reserver h2 {
+                font-size: 30px
+            }
+            .reserver h3 {
+                font-size: 23px
+            }
+            .reserver .row {
+                width: 95%;
+                margin: auto;
+                top: auto;
+            }
+            .user-dashboard .text-right {
+                text-align: center !important;
+                margin: 20px 0 0
+            }
+            .prendre-rendez a {
+                padding: 10px 14px;
+                font-size: 17px;
+            }
+            .user-dashboard .user-docteur,
+            .user-dashboard .vos-medecins {
+                padding: 24px 0px 30px;
+            }
+            .user-dashboard .user-docteur .partage {
+                display: block;
+            }
+            .user-dashboard .user-docteur .partage .partager button {
+                padding: 10px 36px;
+                margin: 17px 0;
+            }
+            .rendez-vous-ajout a {
+                font-size: 17px
+            }
+        }
+        
+        @media (min-width:992px) and (max-width:1200px) {
+            .ajout-calendrier {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .user-dashboard .user-docteur .docteur iframe {
+                height: 335px
+            }
+            .user-dashboard .user-docteur,
+            .user-dashboard .vos-medecins {
+                padding: 24px 9px 30px;
+            }
+            .user-dashboard .trouver-docteur {
+                width: 100%
+            }
+            .user-dashboard .trouver-docteur a {
+                font-size: 17px
+            }
+        }
+        
+        @media (min-width:1201px) and (max-width:1500px) {
+            .user-dashboard .user-docteur .ajout-calendrier a,
+            .user-dashboard .user-docteur .rdv a,
+            .user-dashboard .user-docteur .annuler button {
+                font-size: 15px
+            }
+        }

@@ -1,0 +1,1963 @@
+@font-face {
+    font-family: 'regular';
+    src: url('../font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../font/Montserrat-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'light';
+    src: url('../font/Montserrat-Light.ttf')
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+button {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 93%
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1111;
+    background: #f8f9fe;
+}
+
+header nav {
+    padding: 0 !important
+}
+
+header nav .bg-logo {
+    background: #CB1717;
+    padding: 10px 3px 10px 13px;
+}
+
+header nav .navbar-nav {
+    width: 35%;
+    JUSTIFY-CONTENT: space-around;
+}
+
+header nav .navbar-nav a {
+    color: #9297A9 !important;
+    font-size: 20px;
+    font-family: Montserrat-Medium;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+header nav .navbar-nav a:hover,
+header nav .navbar-nav a:active {
+    color: #303030 !important;
+}
+
+header nav .form-inline .form-control {
+    width: 0;
+    opacity: 0;
+    transition: 2s all;
+    padding: 22px;
+    border-radius: 38px;
+}
+
+header nav .form-inline .form-control:focus,
+header nav .form-inline .form-control:hover {
+    box-shadow: none;
+    border: 1px solid #3c4146
+}
+
+header nav .search {
+    margin: 0 30px;
+    cursor: pointer;
+    color: #C8C8D4;
+    font-family: Montserrat-Medium;
+    font-size: 20px
+}
+
+header nav .notification,
+header nav .notification1 {
+    margin: 0 15px;
+    position: relative;
+}
+
+header nav .notification0 {
+    display: flex;
+}
+
+header nav .notification1 span {
+    padding: 0px 5px;
+    border-radius: 50%;
+    font-family: Montserrat-Medium;
+    color: #fff;
+    background: #FF004E;
+    font-size: 14px;
+    position: absolute;
+    left: 8px;
+    top: -12px;
+}
+
+header nav .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+header nav .profil {
+    margin: 0px 45px 0 30px;
+}
+
+header nav .profil .profil-img img {
+    border-radius: 50%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+header nav .profil span {
+    color: #303030;
+    font-size: 20px;
+    font-family: Montserrat-Medium;
+    margin: 0px 20px
+}
+
+.dropdown-toggle::after {
+    border: none
+}
+
+header nav {
+    box-shadow: 0px 0px 15px -5px #cce8fb
+}
+
+.chat .chatting-bar {
+    background: #EC1B1B;
+    width: 105px;
+    height: 100%;
+    padding: 77px 0px 102px 1px;
+    position: fixed;
+    top: 0;
+}
+
+.chat .chatting-lien {
+    margin-top: 50px;
+    -moz-transition: 0.75s all;
+    -o-transition: 0.75s all;
+    -webkit-transition: 0.75s all;
+    transition: 0.75s all;
+    padding: 30px;
+}
+
+.chat .chatting-lien:hover,
+.chat .chatting-lien:active {
+    background: #fff;
+    border-bottom-left-radius: 54px;
+    border-top-left-radius: 54px;
+}
+
+
+/*message*/
+
+.chat {
+    background: #F8F9FE
+}
+
+.chat .message h4 {
+    color: #303030;
+    font-family: Montserrat;
+    margin-bottom: 40px;
+    letter-spacing: 1.2
+}
+
+.chat .message .search {
+    position: relative;
+    margin-top: 40px
+}
+
+.chat .message .search button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
+
+.chat .message .search input {
+    background: #FCFBFB;
+    padding-left: 30px;
+    border: none;
+    padding: 26px 45px;
+    box-shadow: 0px 1px 19px -3px #e4e5e6;
+    font-size: 19px;
+}
+
+.chat .message .search input:focus {
+    box-shadow: 0px 1px 19px -3px #e4e5e6;
+    border: none
+}
+
+.chat .message .discussion {
+    padding: 30px 0;
+    border-radius: 5px;
+    margin: 19px 0;
+    background: #F9F8F8;
+    box-shadow: 0px 1px 19px -3px #e4e5e6;
+}
+
+.chat .message .discussion.active h5 {
+    color: #25265E;
+    font-family: Montserrat;
+}
+
+.chat .message .discussion h5 {
+    color: #25265E;
+    font-family: Montserrat-Medium;
+    font-size: 18px
+}
+
+.chat .message .discussion span {
+    color: #787993;
+    font-family: regular;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    cursor: pointer;
+    text-align: initial;
+    font-size: 16px;
+}
+
+.chat .message .discussion p {
+    color: #787993;
+    font-family: regular;
+    font-size: 15px;
+}
+
+.chat .message .discussion.active {
+    box-shadow: 0px 1px 19px -3px #e4e5e6;
+    border-radius: 5px;
+    margin: 19px 0;
+    background: #fff
+}
+
+.chat .message .discussion .img-profil img,
+.chat .discussion1 .img-profil img {
+    border-radius: 50%;
+    width: 57px;
+    height: 57px
+}
+
+.chat .message .bg-color {
+    background: #fff;
+    padding: 0;
+    border-radius: 15px
+}
+
+.chat .message .point-vert,
+.discussion1 .bg-vert {
+    width: 21px;
+    height: 21px;
+    background: #43D881;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    border: 3px solid #fff;
+}
+
+.chat .message .point-vert.gris {
+    background: #ECECEC;
+}
+
+.chat .message hr {
+    margin: 25px 0
+}
+
+.chat .discussion1 {
+    background: #fff;
+    margin: 0px 30px;
+    padding: 38px 39px;
+    border-radius: 13px;
+    box-shadow: 0px 0px 22px -12px #e0d9d9;
+}
+
+.chat .discussion1 .nom-profil h5 {
+    color: #25265E;
+    font-family: 'Montserrat';
+    margin-bottom: 0
+}
+
+.chat .discussion1 .nom-profil p {
+    color: #787993;
+    font-family: regular
+}
+
+.chat .discussion1 .search-setting {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chat .discussion1 .search1 {
+    margin-right: 25px
+}
+
+.chat .discussion1 .discussion1-text {
+    align-items: flex-end;
+    display: flex
+}
+
+.chat .discussion1 .discussion1-text .bg-bleu,
+.chat .discussion1 .discussion1-text .bg-gris {
+    background: #ECF4FF;
+    padding: 21px 30px 5px;
+    border-radius: 21px;
+    border-bottom-left-radius: 0;
+    MAX-width: 60%;
+}
+
+.chat .discussion1 .discussion1-text .bg-gris {
+    background: #F8F8F9;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 0;
+}
+
+.chat .discussion1 .discussion1-text p {
+    color: #787993;
+    font-family: 'Montserrat-Medium';
+}
+
+.chat .discussion1 .discussion1-text img {
+    width: 50px;
+    height: 50px
+}
+
+.chat .discussion1 .download {
+    display: flex;
+    background: #F2F2F4;
+    border-radius: 5px;
+    padding: 10px 20px;
+    align-items: center;
+    margin: 24px 0 30px;
+}
+
+.chat .discussion1 .download .bg-rouge {
+    background: #FF7052;
+    padding: 12px 14px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.chat .discussion1 .download .bg-rouge p {
+    color: #fff;
+    font-family: 'Montserrat-Medium';
+}
+
+.chat .discussion1 .download span {
+    color: #787993;
+    font-family: 'Montserrat-Medium';
+}
+
+.chat .discussion1 .download img {
+    width: 30px;
+    height: 30px
+}
+
+.chat .discussion1 .download div {
+    margin: 0 10px
+}
+
+.emojionearea .emojionearea-button {
+    right: 180px;
+}
+
+.emojionearea.emojionearea-inline>.emojionearea-button {
+    top: 12px;
+}
+
+.input-discussion {
+    position: relative;
+    margin-top: 75px
+}
+
+.input-discussion .file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.input-discussion .d-flex {
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center
+}
+
+.input-discussion .d-flex button {
+    background: #EC1B1B;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 20px;
+    font-family: Montserrat-Medium
+}
+
+.emojionearea.emojionearea-inline>.emojionearea-editor {
+    font-size: 20px;
+    padding-top: 5px
+}
+
+.emojionearea .emojionearea-button>div,
+.emojionearea .emojionearea-picker .emojionearea-wrapper:after {
+    background-image: url("../img/happy.svg") !important;
+    background-size: 100%;
+}
+
+.emojionearea.emojionearea-inline {
+    height: 50px
+}
+
+
+/*paitent*/
+
+.patient .liste-devis .ajouter {
+    display: flex;
+    margin: 38px 0 20px;
+    justify-content: flex-end;
+}
+
+.patient .liste-devis .ajouter a {
+    background: linear-gradient(to bottom right, #0d4fa2, #9dd8ff);
+    border-radius: 50px;
+    padding: 14px 27px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+.patient .liste-devis ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.patient .liste-devis ul li a {
+    color: #808080;
+    font-size: 20px;
+    font-family: Montserrat;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    padding-bottom: 18px;
+}
+
+.patient .liste-devis ul li a:hover,
+.patient .liste-devis ul li a:active {
+    color: #EC1B1B;
+    border-bottom: 2px solid #EC1B1B;
+    font-family: Montserrat;
+}
+
+.patient hr {
+    margin-top: 0
+}
+
+
+/*checkbox*/
+
+.patient .devis input,
+.patient .panier input,
+.patient .devis-Managements input,
+.next .devis input,
+.next .panier input,
+.next .devis-Managements input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    left: 70px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 12px
+}
+
+.patient input:checked~.checkmark:after,
+.next input:checked~.checkmark:after {
+    display: block;
+}
+
+.patient input:checked~.checkmark,
+.next input:checked~.checkmark {
+    background-color: #EC1B1B;
+}
+
+.patient label.container,
+.next label.container {
+    margin-left: 15px
+}
+
+.patient .checkmark:after,
+.next .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.patient .num-checkbox td ul,
+.next .num-checkbox td ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-evenly
+}
+
+.patient .mask,
+.next .mask {
+    margin-left: -62px;
+    margin-right: 13px;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.patient .table thead tr th,
+.next .table thead tr th {
+    color: #08264A;
+    font-family: 'Montserrat-Medium';
+    letter-spacing: 1.2;
+    font-size: 17px;
+    text-align: center
+}
+
+.patient .table tbody tr td,
+.next .table tbody tr td {
+    color: #9297A9;
+    font-family: 'regular';
+    font-size: 18px;
+    text-align: center
+}
+
+.patient .table tbody tr,
+.next .table tbody tr {
+    background: #fff;
+    margin: 10px 0;
+    box-shadow: 0px 0px 21px -3px #e9ecf1;
+}
+
+.patient .table,
+.next .table {
+    border-collapse: separate;
+    border-spacing: 0px 22px;
+    line-height: 3.2;
+}
+
+.patient .table tbody tr th,
+.next .table tbody tr th {
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    border-left: 5px solid #EC1B1B;
+}
+
+.patient .table tbody tr td:last-of-type,
+.next .table tbody tr td:last-of-type {
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px
+}
+
+.patient .consultation-fade td,
+.next .consultation-fade td {
+    text-align: left !important
+}
+
+.patient .consultation-fade .margin-date,
+.next .consultation-fade .margin-date {
+    margin-top: -35px;
+    background: #ffff;
+    padding: 10px 65px;
+    border-left: 5px solid #EC1B1B;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.patient .consultation-fade td,
+.next .consultation-fade td {
+    padding: 0
+}
+
+.patient .consultation-fade .date,
+.next .consultation-fade .date {
+    display: flex;
+    margin-top: 10px;
+    align-items: baseline
+}
+
+.patient .consultation-fade .date p,
+.next .consultation-fade .date p {
+    color: #9AA6CE;
+    font-family: 'Montserrat-Medium';
+}
+
+.patient .consultation-fade .date div,
+.next .consultation-fade .date div {
+    margin-right: 20px
+}
+
+.patient .consultation-fade,
+.next .consultation-fade {
+    display: none
+}
+
+.patient .consultation,
+.next .consultation {
+    cursor: pointer
+}
+
+.patient .telecharger,
+.next .telecharger {
+    display: flex;
+    margin: 34px 0 41px;
+}
+
+.patient .telecharger div,
+.next .telecharger div {
+    margin-right: 20px;
+    margin-right: 20px;
+    background: #2ECC71;
+    color: #fff;
+    padding: 0px 28px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 15px -3px #2ecc71;
+}
+
+.patient .telecharger div a,
+.next .telecharger div a {
+    color: #fff;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px
+}
+
+.patient .telecharger div a img,
+.patient .telecharger div a span,
+.next .telecharger div a img,
+.next .telecharger div a span {
+    margin-left: 10px;
+    font-family: 'Montserrat';
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.patient .recents .row,
+.next .recents .row {
+    align-items: center
+}
+
+.patient .recents a,
+.next .recents a {
+    color: #434B65;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    letter-spacing: 1.2
+}
+
+.patient .recents .drop,
+.next .recents .drop {
+    text-align: right
+}
+
+.patient .dropdown button,
+.next .dropdown button {
+    outline: none;
+    background: none;
+    border: none;
+    color: #9AA6CE;
+    font-size: 18px;
+}
+
+.patient .dropdown a,
+.next .dropdown a {
+    color: #9AA6CE;
+    font-family: 'regular';
+    font-size: 18px;
+}
+
+.patient .recents,
+.next .recents {
+    background: #fff
+}
+
+.patient .recents .nom a {
+    color: #D5D9E5;
+    border-radius: 50%;
+    background: #F6F7FB;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat-Medium';
+}
+
+.patient .fermor a {
+    color: #434B65;
+    font-size: 18px
+}
+
+.patient .fermor span {
+    color: #ADAEB4;
+    font-family: 'regular';
+}
+
+.patient .recents .nom img {
+    width: 95%;
+}
+
+.patient .recents .jane {
+    margin: 20px 0;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.patient .recents .jane:active,
+.patient .recents .jane:hover {
+    background: #F4F7FC;
+}
+
+.info-pro .box-shadow {
+    box-shadow: -1px 4px 10px 2px #d3d6da;
+    padding: 38px 10px 1px;
+    border-radius: 22px;
+    background: #fff
+}
+
+.info-pro h4 {
+    margin: 30px 0
+}
+
+.info-pro .box-shadow h4 {
+    color: #8595A8;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.info-pro .box-shadow img {
+    border-radius: 15px
+}
+
+.information h5 {
+    color: #08264A;
+    font-family: 'Montserrat';
+}
+
+.information p {
+    color: #757575;
+    font-family: Montserrat-Medium
+}
+
+.information p span {
+    color: #000000;
+    font-family: Montserrat
+}
+
+.information .edit {
+    text-align: right;
+    cursor: pointer
+}
+
+.information {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 3px 20px -2px #cec8c8;
+    padding: 40px 9px 20px;
+}
+
+.info-pro .margin-left {
+    margin-left: 40px
+}
+
+.info-pro .dr-jhon .row {
+    margin: 0
+}
+
+.mon-compte .compte {
+    display: flex;
+    align-items: center
+}
+
+.mon-compte .compte h4 {
+    color: #4A4A4A;
+    font-family: Montserrat
+}
+
+.mon-compte .compte {
+    margin: 20px 0
+}
+
+.mon-compte .login .form-control {
+    padding: 27px 10px;
+    background: #EFEEF8;
+}
+
+.mon-compte .login .form-control:focus {
+    box-shadow: 0px 0px 23px -9px #EC1B1B;
+    border: 1px solid #EC1B1B
+}
+
+.mon-compte .login .save {
+    background: #EC1B1B;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 8px;
+    margin: 40px 0 10px;
+}
+
+.mon-compte .login label {
+    color: #4A4A4A;
+    font-family: 'Montserrat-Medium';
+    font-size: 20px;
+    margin: 30px 0 10px
+}
+
+.mon-compte .login .save a {
+    color: #fff;
+    font-family: 'Montserrat-Medium';
+    font-size: 20px
+}
+
+.mon-compte .login .change {
+    text-align: right
+}
+
+.mon-compte .login .change a {
+    color: #EC1B1B;
+    font-family: 'Montserrat-Medium';
+    font-size: 14px
+}
+
+.mes-information {
+    margin: 30px 0
+}
+
+.mes-information h4 {
+    font-family: Montserrat-Medium;
+    color: #08264A;
+    margin: 30px 0;
+}
+
+.mes-information p {
+    color: #686868;
+    font-family: Montserrat-Medium
+}
+
+.mes-information .form-check {
+    margin-right: 30px
+}
+
+.mes-information label {
+    color: #08264A;
+    font-family: Montserrat-Medium
+}
+
+.mes-information form .row {
+    margin-top: 30px
+}
+
+.mes-information form .row input,
+.mes-information form .row select {
+    border: none;
+    border-bottom: 1px solid #C0CCDA;
+    padding-left: 0;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    height: 61px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.mes-information form .row select {
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.mes-information form .row input:focus,
+.mes-information form .row select:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #EC1B1B
+}
+
+.mes-information .form-select::after {
+    content: url('../img/down-arrow1.png');
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 18px 35px;
+}
+
+.mes-information .save {
+    text-align: center;
+    background: #EC1B1B;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 30px auto;
+    width: 62%;
+}
+
+.mes-information .save a {
+    color: #fff;
+    font-family: Regular;
+    font-size: 25px
+}
+
+
+/*checked radio*/
+
+.mes-information .radio-wrap {
+    position: relative;
+    margin-right: 28px
+}
+
+.mes-information .radio-wrap .radio-label-fake {
+    color: #627ae0;
+    font-weight: bold;
+}
+
+.mes-information .radio-wrap>input {
+    position: relative;
+    top: 5px;
+    opacity: 0
+}
+
+.mes-information .radio-wrap>label {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #EC1B1B;
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    left: 8%;
+    transform: translate(-50%, 0%);
+    cursor: pointer;
+}
+
+.mes-information .radio-wrap>label::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mes-information .radio-wrap input[type="radio"]:checked+label::before {
+    background: #EC1B1B;
+}
+
+.mes-information .radios {
+    display: flex
+}
+
+.mes-information .radios span {
+    color: #08264A;
+    font-family: Montserrat-Medium;
+    margin-left: 10px
+}
+
+.Effective .more {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.Effective .more h4 {
+    color: #303030;
+    font-family: Montserrat;
+    letter-spacing: 1;
+    font-size: 30px
+}
+
+.Effective .more p {
+    color: #7B7B7B;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+}
+
+.Effective .more label {
+    color: #08264A;
+    font-size: 17px;
+    font-family: regular;
+}
+
+.plan {
+    background: #F9F8FE;
+    padding: 45px 0
+}
+
+.plan .row {
+    justify-content: space-between
+}
+
+.plan h4 {
+    color: #696969;
+    font-family: Montserrat-Medium;
+    margin: 30px 0
+}
+
+.plan h3 {
+    color: #EC1B1B;
+}
+
+.plan span {
+    color: #C3C3C3;
+    font-size: 18px;
+    font-family: light
+}
+
+.plan p {
+    color: #9E9E9E;
+    font-family: Montserrat-Medium;
+    font-size: 18px
+}
+
+.plan hr {
+    width: 70%;
+}
+
+.plan .text-center {
+    background: #fff;
+    padding: 50px 0;
+    box-shadow: 0px 1px 21px -10px #d4d4d4;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    border-radius: 8px
+}
+
+.plan .text-center:hover {
+    border-top: 2px solid #EC1B1B;
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.plan .get-started {
+    margin: 45px 0
+}
+
+.plan a {
+    color: #EC1B1B;
+    font-size: 20px;
+    font-family: Montserrat;
+    border-radius: 5px;
+    border: 1px solid #EC1B1B;
+    padding: 8px 27px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.plan a:hover {
+    background: #EC1B1B;
+    color: #fff
+}
+
+.progress-bar1 .line-progress {}
+
+.progress-bar1 .line-progress .progress-rotate,
+.next .line-progress .progress-rotate {
+    transform: rotate(270deg)
+}
+
+.progress-bar1 .line-progress .progress-rotate hr,
+.next .line-progress .progress-rotate hr {
+    height: 5px;
+    color: #000;
+    border-radius: 50px;
+    background: #cfd2d6;
+    border: 1px solid #cfd2d6;
+    margin: 5px 0;
+}
+
+.progress-bar1 .line-progress .progress-rotate .hr1 hr,
+.next .line-progress .progress-rotate .hr1 hr {
+    width: 83px;
+}
+
+.progress-bar1 .line-progress .progress-rotate .hr2 hr,
+.next .line-progress .progress-rotate .hr2 hr {
+    width: 70px;
+}
+
+.progress-bar1 .line-progress .progress-rotate .hr3 hr,
+.next .line-progress .progress-rotate .hr3 hr {
+    width: 30px;
+}
+
+.progress-bar1 .line-progress .progress-rotate .hr4 hr,
+.next .line-progress .progress-rotate .hr4 hr {
+    width: 75px;
+}
+
+.progress-bar1 #lineProgress {
+    height: 8px;
+}
+
+.progress-bar1 .Appointments h5,
+.next .Appointments h5 {
+    color: #08264A;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 0;
+    font-size: 18px
+}
+
+.progress-bar1 .Appointments p,
+.next .Appointments p {
+    color: #B6BAC6;
+    font-family: 'regular';
+    font-size: 17px;
+    margin-bottom: 0
+}
+
+.progress-bar1 .Appointments p span,
+.next .Appointments p span {
+    color: #08264A;
+    font-family: 'Montserrat-Medium';
+    font-size: 28px;
+    margin-right: 10px;
+    letter-spacing: 1.2
+}
+
+.progress-bar1 .pourcentage,
+.next .pourcentage {
+    background: #69DEAA;
+    color: #fff;
+    font-family: 'Montserrat-Medium';
+    font-size: 25px;
+    padding: 9px 7px 2px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.progress-bar1 .pourcentage h6 a,
+.next.pourcentage h6 a {
+    color: #fff;
+    font-family: 'Montserrat-Medium';
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px
+}
+
+.progress-bar1 .pourcentage.negative,
+.next .pourcentage.negative {
+    background: #DA3F81;
+}
+
+.progress-bar1 .pourcentage h6,
+.next .pourcentage h6 {
+    font-size: 14px
+}
+
+.progress-bar1 .Appointments,
+.next .Appointments {
+    box-shadow: 1px 1px 16px 0px #daefe6;
+    background: #fff;
+    padding: 35px 14px 31px;
+    border-radius: 12px;
+    margin-right: 20px
+}
+
+.progress-bar1 .Appointments .progress-rotate1,
+.next .Appointments .progress-rotate1 {
+    position: relative;
+    width: 72%
+}
+
+.progress-bar1 .Appointments .progress-rotate1 .date,
+.next .Appointments .progress-rotate1 .date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.progress-bar1 .Appointments .progress-rotate1 .date p,
+.next .Appointments .progress-rotate1 .date p {
+    color: #08264A;
+    font-size: 18px;
+    margin-bottom: -5px;
+    font-family: 'Montserrat-Medium';
+}
+
+.progress-bar1 .Appointments .progress-rotate1 .date span,
+.next .Appointments .progress-rotate1 .date span {
+    color: #B6BAC6;
+    font-size: 13px;
+    font-family: 'regular';
+}
+
+.progress-bar1 .Appointments.cancel .hr1 hr,
+.next .Appointments.cancel .hr1 hr {
+    width: 70px;
+}
+
+.progress-bar1 .Appointments.cancel .hr2 hr,
+.next .Appointments.cancel .hr2 hr {
+    width: 50px;
+}
+
+.progress-bar1 .Appointments.cancel .hr3 hr,
+.next .Appointments.cancel .hr3 hr {
+    width: 30px;
+}
+
+.progress-bar1 .Appointments.cancel .hr4 hr,
+.next .Appointments.cancel .hr4 hr {
+    width: 60px;
+}
+
+.progress-bar1 .Today-11 .Appointments1,
+.next .Appointments1 {
+    display: flex;
+}
+
+.progress-bar1 .Today-11 .Appointments1 h3,
+.next .Appointments1 h3 {
+    color: #303030;
+    font-family: 'Montserrat';
+}
+
+.progress-bar1 .Today-11 .Appointments1 {
+    margin: 50px 0 20px
+}
+
+.progress-bar1 .Today-11 .Appointments1 span,
+.next .Appointments1 span {
+    color: #A29B9B;
+    font-family: 'Montserrat-Medium';
+    font-size: 22px
+}
+
+.progress-bar1 .Today-11 h6:first-of-type,
+.next h6:first-of-type {
+    color: #303030;
+    font-family: Montserrat-Medium;
+    font-size: 23px
+}
+
+.progress-bar1 .Today-11 h6:last-of-type,
+.next h6:first-of-type {
+    color: #8B8FA2;
+    font-family: Montserrat-Medium;
+    font-size: 21px
+}
+
+.progress-bar1 .Today-11 .validation,
+.next .validation {
+    display: flex;
+}
+
+.progress-bar1 .Today-11 .validation div,
+.next .validation div {
+    margin-right: 10px
+}
+
+.progress-bar1 .Today-11 .date,
+.next .bg-blanche .date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e2dcdc;
+    border-bottom: 1px solid #e2dcdc;
+    padding: 30px 0 25px;
+    margin: 38px 0px 10px;
+}
+
+.next .justify-space {
+    justify-content: space-around
+}
+
+.progress-bar1 .date div,
+.next .date div {
+    text-align: center
+}
+
+.progress-bar1 .bg-blanche,
+.next .bg-blanche {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 22px -5px #f3f3f3
+}
+
+.progress-bar1 .date p,
+.next .date p {
+    color: #08264A;
+    font-family: Montserrat-Medium;
+    font-size: 25px;
+}
+
+.progress-bar1 .date .mois p,
+.next .date .mois p {
+    color: #9297A9;
+    font-family: regular;
+    font-size: 20px;
+}
+
+.progress-bar1 .Today-11 .view-details,
+.next .view-details {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 24px;
+}
+
+.progress-bar1 .Today-11 .view-details a,
+.next .view-details a {
+    text-align: center;
+    color: #EC1B1B;
+    font-family: Montserrat-Medium;
+    font-size: 20px
+}
+
+.next .consultation-fade .date p {
+    font-size: 18px
+}
+
+.next input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.next .Appointments h6 {
+    color: #fff;
+    font-size: 14px
+}
+
+.next .Appointments {
+    margin-bottom: 30px
+}
+
+.next .Appointments1 {
+    margin: 40px 0
+}
+
+.next .ajout-Appointment h4 {
+    color: #303030
+}
+
+.progress-bar1 .ajout-Appointment {
+    margin: 30px 0 40px
+}
+
+.progress-bar1 .ajout-Appointment .New-Appointment {
+    text-align: right
+}
+
+.progress-bar1 .ajout-Appointment .New-Appointment {
+    margin-right: 20px
+}
+
+.progress-bar1 .ajout-Appointment .New-Appointment a {
+    background: linear-gradient(to bottom right, #0d4fa2, #9dd8ff);
+    border-radius: 50px;
+    padding: 14px 27px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+.progress-bar1 .pourcentage.resolved,
+.next .pourcentage.resolved {
+    background: #2689EC
+}
+
+.next .pourcentage.resolved a {
+    color: #fff;
+    font-family: 'Montserrat-Medium';
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.message,
+.patient,
+.info-pro,
+.mon-compte,
+.Effective,
+.progress-bar1,
+.Availability1,
+.next {
+    display: none;
+}
+
+.dashboard {
+    margin-top: 56px
+}
+
+.progress-bar1 {
+    display: block;
+}
+
+.fc-right {
+    display: flex;
+    align-items: center
+}
+
+.fc-right button {}
+
+.fc-right div {
+    display: flex;
+}
+
+.fc-right .fc-next-button,
+.fc-right .fc-prev-button {
+    margin: 0px 30px
+}
+
+.fc-toolbar h2 {
+    font-size: 15px;
+    color: #292529
+}
+
+.fc-button-primary:not(:disabled).fc-button-active,
+.fc-button-primary:not(:disabled):active {
+    background: #fff;
+    color: #737373;
+    outline: none;
+    color: #EC1B1B;
+    font-family: 'Montserrat';
+    box-shadow: none;
+}
+
+.fc-button-primary:not(:disabled).fc-button-active:focus,
+.fc-button-primary:not(:disabled):active:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.fc-button-primary {
+    background: #F6F7FD;
+    color: #737373;
+    font-family: 'Montserrat';
+}
+
+.fc-button-group>.fc-button {
+    padding: 10px 40px;
+}
+
+.fc-button-primary {
+    border: 1px solid #EFEFEF;
+}
+
+.fc-right button {
+    background: none;
+    border: none;
+    outline: none
+}
+
+.fc-right button:hover {
+    background: none;
+    border: none;
+    color: #7B7B7B;
+    outline: none
+}
+
+.fc-button-primary:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.fc table span {
+    color: #9094A1;
+    font-family: regular;
+    font-size: 17px;
+}
+
+.fc th {
+    padding: 17px;
+}
+
+.fc-view-container {
+    background: #fff;
+}
+
+.Availability1 .looking {
+    position: relative;
+}
+
+.Availability1 .looking input {
+    width: 400px;
+    padding: 23px 20px;
+    border-radius: 7px;
+}
+
+.Availability1 .search-btn22 {
+    position: absolute;
+    top: 11px;
+    right: 7px;
+}
+
+.Availability1 .Séance {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.Availability1 .Availability-Séance {
+    margin: 30px 0;
+}
+
+.Availability1 .Séance::after {
+    content: url('../img/arrow-down3.png');
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 18px 21px;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    background: transparent;
+    color: #747F92;
+}
+
+.Availability1 .Availability-Séance h4 {
+    color: #303030;
+    font-family: Montserrat;
+    letter-spacing: 1.1
+}
+
+.Availability1 .Availability-Séance label {
+    color: #08264A;
+    font-family: 'Montserrat-Medium';
+    margin: 10px;
+}
+
+.Availability1 .Availability-Séance select {
+    border: none;
+    background: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    color: #EC1B1B;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+    width: 130px
+}
+
+.Availability1 .Availability-Séance select option {
+    color: #000;
+    font-size: 15px;
+}
+
+.Availability1 .Availability-Séance select:focus {
+    box-shadow: none;
+}
+
+.fc-button-primary:hover {
+    background: #fff;
+    color: #EC1B1B;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    border: none
+}
+
+.fc-button-primary:not(:disabled).fc-button-active,
+.fc-button-primary:not(:disabled):active {
+    border: none
+}
+
+.fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+    font-size: 20px;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+.fc-day {
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.fc-day:hover {
+    background: #4DFFB2;
+}
+
+.fc-unthemed tbody {
+    line-height: 3
+}
+
+.fc-right .fc-next-button,
+.fc-right .fc-prev-button,
+.fc-toolbar h2 {
+    display: contents;
+}
+
+.fc-button .fc-icon {
+    margin: 0px 20px
+}
+
+.width-input {
+    width: 550px !important;
+    opacity: 1 !important;
+}
+
+.Sales h5 {
+    color: #EC1B1B;
+    font-family: Montserrat;
+}
+
+.sales p {
+    color: #8D8D8D;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 0
+}
+
+.sales span {
+    color: #8D8D8D;
+    font-family: regular
+}
+
+.sales .row {
+    align-items: center
+}
+
+.noti {
+    color: #08264A;
+    font-family: Montserrat;
+    font-size: 20px
+}
+
+.noti a {
+    color: #7E7E7E;
+    font-size: 19px;
+    font-family: regular
+}
+
+.modal .modal-dialog {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px
+}
+
+.modal {
+    top: 19%;
+}
+
+.date-rendezVous {
+    background: none;
+    top: 5% !important
+}
+
+.date-rendezVous .modal-dialog {}
+
+.date-rendezVous .modal-footer .next {
+    display: block
+}
+
+.date-rendezVous .modal-dialog {
+    background: #fff;
+    border-radius: 31px;
+    padding: 0
+}
+
+.progress-bar1 .date {
+    margin-top: 0;
+    line-height: normal
+}
+
+.consultation-fade .rendez-vous p {
+    color: #000000
+}
+
+.consultation-fade .rendez-vous {
+    margin: 10px 0
+}
+
+.patient .telecharger1 input {
+    opacity: 1 !important;
+    position: static;
+    opacity: 0;
+    cursor: pointer;
+    height: auto;
+    width: 100%;
+    PADDING: 16PX 13PX;
+    border-radius: 50px;
+}
+
+.patient .telecharger1 button {
+    position: absolute;
+    top: 17px;
+    right: 12px;
+    background: 0;
+    border: 0;
+}
+
+.progress-bar1 .date {}
+
+.next .Appointments .progress-rotate1 .date {
+    top: 0;
+    line-height: 1.3 !important;
+    margin-top: 33px
+}
+
+.next .table,
+.patient .table {
+    background: #c6f9da;
+    margin: 50px 0px;
+    padding: 0px 35px;
+    margin-right: -15px;
+    margin-left: -15px;
+    border-radius: 13px;
+}
+
+.next .table td,
+.next .table th {
+    padding: 0;
+    line-height: 2.5;
+}
+
+.telecharger1 a {
+    color: #737373;
+    font-size: 18px;
+    font-family: Montserrat;
+    letter-spacing: 1.2;
+    margin-left: 20px
+}
+
+.telecharger1 {
+    align-items: center;
+    margin: 51px 0px 10;
+    border-radius: 0;
+    border: none;
+}
+
+
+/*popup de view-details*/
+
+.partage-rv p {
+    text-align: left;
+    font-family: Montserrat-Medium;
+    font-size: 17px;
+    color: #8e9295;
+    margin-top: 35px;
+}
+
+.partage-rv h4 {
+    font-family: Montserrat;
+    color: #08264A;
+    margin: 25px 0;
+    text-align: center
+}
+
+.partage-rv span {
+    font-size: 18px;
+    color: #455152;
+}
+
+.partage-rv .nom-dr {
+    margin-top: 36px;
+}
+
+.partage-rv .modal-body {
+    padding: 10px 40px
+}
+
+.partage-rv .width-logo img {
+    width: 43%
+}
+
+.partage-rv .width-logo {
+    text-align: left
+}
+
+.partage-rv .modal-content {
+    padding-bottom: 0
+}
+
+.partage-rv .modal-footer {}
+
+.partage-rv .modal-footer p {
+    text-align: center;
+    padding: 11px 0px 1px;
+    color: #36393B;
+    font-weight: 550;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-bottom: 0
+}
+
+.partage-rv .modal-footer p span {
+    color: #ec1b1b;
+    font-size: 16px
+}
+
+.partage-rv .partage-reseaux p {
+    text-align: center;
+    font-size: 21px;
+    color: #FF5722;
+    letter-spacing: 1.3
+}
+
+.partage-imprimer {
+    text-align: center
+}
+
+.imprimer-rv .close {
+    text-align: end;
+    margin-right: 16px;
+    margin-top: 14px;
+}
+
+.partage-rv .modal-dialog {
+    padding: 0
+}
+
+.imprimer-rv .modal-header p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.imprimer-rv .modal-header p span {
+    font-size: 15px
+}
+
+.imprimer-rv .modal-header img {
+    width: 100%
+}
+
+.imprimer-rv .modal-header {
+    align-items: center;
+    border: 0
+}
+
+.imprimer-rv .date-tirage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imprimer-rv .imprimer button {
+    font-family: Montserrat-Medium;
+    border: none;
+    color: #fff;
+    background: #2ECC71;
+    padding: 10px 33px;
+    margin: 0 10px;
+    border-radius: 12px;
+    font-size: 19px;
+    cursor: pointer;
+    outline: none;
+    margin: 43px 0 0;
+}
+
+.imprimer-rv .close {
+    text-align: end;
+    margin-right: 16px;
+    margin-top: 14px;
+}
+
+.imprimer-rv .imprimer {
+    text-align: center
+}
+
+.partage-rv {
+    top: 90px
+}
+
+.imprimer2,
+.partager2 {
+    font-family: Montserrat-Medium;
+    border: none;
+    color: #fff;
+    background: #2ECC71;
+    padding: 10px 33px;
+    margin: 0 10px;
+    border-radius: 12px;
+    font-size: 19px;
+    cursor: pointer;
+    outline: none;
+    margin: 43px 0 0;
+}
+
+.partager2 {
+    background: #3a84df;
+}
+
+.partage-imprimer {
+    margin: 30px 0
+}
+
+.partage-reseaux {
+    text-align: center
+}

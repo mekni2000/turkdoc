@@ -1,0 +1,35 @@
+                @media screen and (min-width:1700px) {
+                    .CONSEIL .BUILDER h6 {
+                        font-size: 27px;
+                    }
+                    .CONSEIL .BUILDER p {
+                        font-size: 30px
+                    }
+                    .CONSEIL .BUILDER span {
+                        font-size: 22px
+                    }
+                }
+                
+                @media screen and (max-width:991px) {
+                    .CONSEIL .BUILDER {
+                        width: 100%;
+                    }
+                    .CONSEIL .BUILDER p,
+                    .CONSEIL .BUILDER .STRUC {
+                        font-size: 20px;
+                    }
+                    .CONSEIL .row {
+                        margin-left: auto
+                    }
+                    .CONSEIL .CONSEIL-pros {
+                        margin-left: auto;
+                        margin-top: 30px;
+                        padding: 26px 5px;
+                    }
+                }
+                
+                @media (min-width:769px) and (max-width:991px) {
+                    .CONSEIL .CONSEIL-1 {
+                        margin-left:
+                    }
+                }

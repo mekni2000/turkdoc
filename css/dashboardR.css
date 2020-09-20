@@ -1,0 +1,144 @@
+    @media(min-width:1600px) {
+        .store .application h6 {
+            font-size: 40px;
+        }
+        .store .application p {
+            font-size: 21px;
+        }
+        .store .application .application-ios p {
+            margin-top: 100px
+        }
+        .store .code-img p {
+            font-size: 20px
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .home-dashboard .dashboard-bg {
+            max-width: 13.33%;
+            padding-right: 4px;
+        }
+        .home-dashboard .dashbord-devis {
+            padding: 21px 22px;
+        }
+        .home-dashboard .table {
+            display: block;
+            overflow: scroll;
+            margin-top: 30px
+        }
+        .dashbord-devis hr {
+            width: 100%;
+            margin: 30px auto
+        }
+        .home-dashboard .dashbord-devis .liste-devis ul {
+            display: block
+        }
+        .home-dashboard .dashbord-devis .liste-devis ul li {
+            margin-top: 10px;
+        }
+        .home-dashboard .dashbord-devis .devis-p {
+            text-align: center;
+            font-size: 20px
+        }
+        .home-dashboard .button-demande {
+            text-align: center
+        }
+        .home-dashboard .button-demande a {
+            padding: 7px 22px;
+        }
+        .home-dashboard .button-demande {
+            display: block !important
+        }
+        .home-dashboard .button-demande div {
+            margin-bottom: 20px
+        }
+        .home-dashboard .button-demande .Passe-paiement {
+            margin-right: 0
+        }
+        .telechargement .success {
+            justify-content: left
+        }
+        .telechargement .commande {
+            margin-bottom: 20px
+        }
+        .table td,
+        .table th {
+            padding: 5px
+        }
+        .home-dashboard .num-checkbox {
+            line-height: 1.2
+        }
+        .home-dashboard .num-checkbox td {
+            line-height: 1.2
+        }
+        .table thead th {
+            padding: 0 40px 0 0
+        }
+        .home-dashboard .num-checkbox td {
+            font-size: 15px;
+        }
+        .home-dashboard label.container {
+            margin-left: 23px
+        }
+        .checkmark {
+            left: 15px;
+            margin-top: 14px
+        }
+        .promotions .date p {
+            font-size: 18px
+        }
+        .contrat .client img {
+            width: 50%
+        }
+        .contrat .client p {
+            font-size: 18px
+        }
+        .contrat .row {
+            align-items: center
+        }
+        .logo-dashboard a p {
+            display: none !important
+        }
+        .reason {
+            padding-right: 0 !important
+        }
+        .service .reason::after {
+            margin-right: 0 !important
+        }
+        .SUBTOTAL .pl-0,
+        .SUBTOTAL {
+            padding-left: 17px !important
+        }
+        .uploader .commande {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+        .uploader .success {
+            justify-content: left
+        }
+        .home-dashboard .banque .valider,
+        .passer-paiement .valider {
+            padding: 11px
+        }
+    }
+    
+    @media (min-width:768px) and (max-width:991px) {
+        .home-dashboard .dashbord-devis .liste-devis ul li {
+            margin-right: 20px
+        }
+        .home-dashboard .dashbord-devis {
+            padding: 50px 29px;
+        }
+        .home-dashboard .dashbord-devis {
+            padding: 50px 5px 50px 29px;
+        }
+        .home-dashboard .table {
+            margin-top: 30px
+        }
+        .home-dashboard label.container {
+            margin-left: 22px;
+        }
+        .checkmark {
+            left: 20px;
+        }
+    }

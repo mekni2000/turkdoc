@@ -1,0 +1,21 @@
+@media screen and (max-width:991px) {
+    header .call {
+        padding: 8px 0 8px
+    }
+    header nav .navbar-collapse ul {
+        display: block;
+        padding-left: 0;
+    }
+    header nav .navbar-collapse ul li {
+        margin-top: 20px
+    }
+    .langue-modal {
+        display: inline
+    }
+}
+
+@media screen and (max-width:576px) {
+    .logo-responsive {
+        width: 55%
+    }
+}

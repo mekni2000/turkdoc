@@ -1,0 +1,23 @@
+@media screen and (max-width:768px) {
+    .chat .discussion1 .download {
+        padding: 10px 0;
+        margin: 0px 0 16px;
+        display: block
+    }
+    .input-discussion .d-flex {
+        position: static;
+        justify-content: center
+    }
+    .emojionearea.emojionearea-inline>.emojionearea-button {
+        right: 10px;
+    }
+    .input-discussion .d-flex .position-relative {
+        position: absolute !important;
+        top: 14px;
+        right: 50px;
+    }
+    .input-discussion .d-flex button {
+        margin: 21px 0;
+        padding: 10px 28px;
+    }
+}

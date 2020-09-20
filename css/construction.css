@@ -1,0 +1,165 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%
+}
+
+.opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: opacity(61%);
+}
+
+header {
+    background: url('../img/bg-construction.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    position: relative
+}
+
+header .container-fluid {
+    padding: 0px 20px
+}
+
+header .droites {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .ivoire {
+    text-align: right;
+    margin-top: -42px;
+}
+
+header .ivoire img {
+    width: 30%
+}
+
+header .drapeau img {
+    width: 30%;
+}
+
+header .container .Revolution {
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    margin-top: 26px;
+}
+
+header .container .Revolution h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: 1.5;
+}
+
+header .container .Revolution p {
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+header .container .materiel {
+    margin: 45px 0px;
+}
+
+header .container .materiel p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+header .btn-devis {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 75px;
+    margin-bottom: 2px;
+}
+
+header .btn-devis a {
+    background: #EEC400;
+    padding: 12px 61px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.owl-carousel .owl-item img {
+    width: 50%;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+    font-size: 60px;
+    color: #747F92;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding: 35px 91px;
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block
+}
+
+footer ul {
+    display: flex;
+    justify-content: center
+}
+
+footer ul li {
+    margin-left: 15px;
+}
+
+footer .adresse p {
+    letter-spacing: 1.2;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer .row {
+    align-items: center
+}
+
+footer .footer-img {
+    margin-bottom: 0 !important
+}
+
+.demande-devis .num-tel {
+    font-weight: 600
+}

@@ -1,0 +1,539 @@
+header {
+    height: auto;
+}
+
+header .bg-nav {
+    height: 81%;
+    background-size: cover;
+    background-position: center;
+}
+
+.user-dashboard {
+    margin: 90px 0
+}
+
+.user-dashboard .user h2 {
+    color: #EC1B1B;
+    font-family: Montserrat
+}
+
+.user-dashboard .user h4 {
+    color: #000000;
+    font-family: regular;
+    font-size: 21px;
+}
+
+.user-dashboard .user-docteur,
+.user-dashboard .vos-medecins {
+    box-shadow: -1px 4px 10px 2px #e8edf3;
+    padding: 24px 30px 30px;
+    border-radius: 13px;
+    margin: 40px 0px;
+}
+
+.user-dashboard .user-docteur .partage {
+    display: flex;
+    justify-content: flex-end
+}
+
+.user-dashboard .user-docteur .partage button {
+    font-family: Montserrat-Medium;
+    border: none;
+    color: #fff;
+    background: #2ECC71;
+    padding: 10px 33px;
+    margin: 0 10px;
+    border-radius: 12px;
+    font-size: 19px;
+    cursor: pointer;
+    outline: none;
+}
+
+.user-dashboard .user-docteur .partage .partager button {
+    background: #3a84df
+}
+
+.user-dashboard .user-docteur .rendez-vous h3 {
+    color: #08264A;
+    font-family: Montserrat-Medium
+}
+
+.user-dashboard .user-docteur .docteur {
+    align-items: center;
+}
+
+.user-dashboard .user-docteur .docteur .row {
+    align-items: center;
+}
+
+.user-dashboard hr {
+    margin: 39px 0 44px
+}
+
+.user-dashboard .user-docteur .docteur h3 {
+    color: #8595A8;
+    font-family: Montserrat-Medium
+}
+
+.user-dashboard .user-docteur .rendez-vous {
+    margin: 25px 0
+}
+
+.user-dashboard .user-docteur .rendez-vous p {
+    color: #08264A;
+    font-family: Montserrat-Medium
+}
+
+.user-dashboard .user-docteur .docteur p {
+    color: #08264A;
+    font-family: Montserrat-Medium
+}
+
+.user-dashboard .user-docteur .docteur span {
+    color: #798796;
+    font-family: Montserrat-Medium
+}
+
+.user-dashboard .user-docteur .ajout-calendrier a,
+.user-dashboard .user-docteur .rdv a,
+.user-dashboard .user-docteur .annuler button {
+    font-family: Montserrat-Medium;
+    font-size: 19px;
+    color: #08264A;
+}
+
+.user-dashboard .user-docteur .rdv a {
+    color: #2ECC71
+}
+
+.user-dashboard .user-docteur .annuler button {
+    color: #EC1B1B;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.user-dashboard .user-docteur .annuler,
+.user-dashboard .user-docteur .rdv {
+    text-align: end
+}
+
+.user-dashboard h2 {
+    color: #08264A;
+    font-family: Montserrat
+}
+
+.user-dashboard .vos-medecins h4 {
+    color: #08264A;
+    font-family: Montserrat-Medium;
+}
+
+.user-dashboard .vos-medecins p {
+    color: #08264A;
+    font-family: Montserrat-Medium;
+    margin-bottom: 10px
+}
+
+.user-dashboard .vos-medecins h5 {
+    color: #8595A8;
+    font-family: Montserrat-Medium
+}
+
+.user-dashboard .vos-medecins span {
+    color: #C0CCDA;
+    font-family: light;
+    line-height: 1.2
+}
+
+.user-dashboard .vos-medecins .medecins {
+    margin-bottom: 30px;
+}
+
+.user-dashboard .trouver-docteur {
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    padding: 12px 0;
+    border-radius: 9px;
+    color: #000;
+    border-top: none;
+    box-shadow: -1px 4px 10px 2px #e8edf3;
+    border-radius: 13px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+.user-dashboard .vos-medecins {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.user-dashboard .trouver-docteur a {
+    color: #8595A8;
+    font-size: 18px;
+    font-family: Montserrat-Medium;
+    width: 100%
+}
+
+.modal .modal-header,
+.modal .modal-footer,
+.modal-body {
+    border: none;
+    text-align: center;
+    justify-content: center
+}
+
+.cancel-modal a:first-child {
+    color: #EC1B1B;
+    border: 1px solid #EC1B1B;
+    font-size: 20px;
+    font-family: Regular;
+    padding: 5px 22px;
+    border-radius: 5px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.cancel-modal a:first-child:hover {
+    background: #EC1B1B;
+    color: #fff;
+}
+
+.cancel-modal a:last-child {
+    color: #fff;
+    border: 1px solid #EC1B1B;
+    font-size: 20px;
+    font-family: Regular;
+    padding: 5px 22px;
+    border-radius: 5px;
+    background: #EC1B1B;
+    color: #fff;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.modal-content {
+    padding-bottom: 50px
+}
+
+.cancel-modal a:last-child:hover {
+    color: #EC1B1B;
+    background: #fff;
+}
+
+.reserver .selectric {
+    width: 100%;
+    height: 55px;
+    padding: 0.65rem .75rem;
+    text-align: left
+}
+
+.reserver .col {
+    padding: 0
+}
+
+.reserver .selectric .label {
+    color: #A29B9B;
+    font-size: 1rem;
+    margin-left: 29px;
+    font-family: Montserrat-Medium;
+}
+
+.reserver .selectric-items {
+    background: none
+}
+
+.selectric-items ul {
+    background: #00000052
+}
+
+.selectric-items li.highlighted {
+    background: none
+}
+
+.selectric-items li,
+.selectric-items li.highlighted {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'regular';
+    border-bottom: 1px solid #fff;
+    padding: 18px 0;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.selectric-items li:hover {
+    background: #000000;
+    color: #fff;
+}
+
+.reserver .selectric .label::before {
+    content: url('../img/search2.png');
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.selectric .button {
+    display: none
+}
+
+.reserver .ou .selectric .label::before {
+    content: url('../img/local.png');
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.reserver .ou .selectric .label::after {
+    content: url('../img/tracker.png');
+    position: absolute;
+    top: 15px;
+    right: 23px;
+}
+
+.sign-up1 span {
+    position: absolute;
+    background: #ec1b1b;
+    padding: 4px 6px;
+    border-radius: 50%;
+    font-size: 13px;
+    top: -14px;
+    left: 11px;
+}
+
+.notifications .Sales h5 {
+    color: #EC1B1B;
+    font-family: Montserrat;
+}
+
+.notifications .sales p {
+    color: #8D8D8D;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 0
+}
+
+.notifications .sales span {
+    color: #8D8D8D;
+    font-family: regular
+}
+
+.notifications .sales .row {
+    align-items: center
+}
+
+.notifications .noti {
+    color: #08264A;
+    font-family: Montserrat;
+    font-size: 20px
+}
+
+.notifications .noti a {
+    color: #7E7E7E;
+    font-size: 19px;
+    font-family: regular
+}
+
+.notifications .modal-dialog {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px
+}
+
+.notifications {
+    top: 19%;
+}
+
+.notifications .modal-header,
+.notifications .modal-footer,
+.notifications .modal-body {
+    text-align: left;
+    justify-content: space-between;
+}
+
+.date-rendezVous .modal-footer {
+    justify-content: flex-end
+}
+
+.prendre-rendez a {
+    background: #ec1b1b;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 2px 19px -4px #afafaf;
+    padding: 10px 27px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.rendez-vous-ajout a {
+    font-size: 20px;
+    background: #3a84df;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 42px;
+    font-family: 'Montserrat-Medium';
+}
+
+.rendez-vous-ajout {
+    margin: 35px 0
+}
+
+.rendez-vous-ajout a span {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 0px 6px;
+    font-weight: bolder;
+}
+
+.date-rendezVous .modal-header,
+.date-rendezVous .modal-body {
+    text-align: left;
+    justify-content: left;
+}
+
+
+/*dropdown de logout*/
+
+header .dropdown-menu.show {
+    left: 0;
+    top: 36px;
+    width: 100%
+}
+
+header .dropdown-menu {
+    background-color: none;
+    border: none;
+}
+
+header .dropdown-menu a {
+    text-align: end;
+    color: #494b4d !important;
+    font-size: 15px !important
+}
+
+header .dropdown-toggle::after {
+    color: #fff
+}
+
+header .dropdown-item {
+    text-align: left !important
+}
+
+
+/*popup de partager*/
+
+.partage-rv p {
+    text-align: left;
+    font-family: Montserrat-Medium;
+    font-size: 17px;
+    color: #8e9295;
+    margin-top: 35px;
+}
+
+.partage-rv h4 {
+    font-family: Montserrat;
+    color: #08264A;
+    margin: 25px 0
+}
+
+.partage-rv span {
+    font-size: 18px;
+    color: #455152;
+}
+
+.partage-rv .nom-dr {
+    margin-top: 36px;
+}
+
+.partage-rv .modal-body {
+    padding: 10px 40px
+}
+
+.partage-rv .width-logo img {
+    width: 43%
+}
+
+.partage-rv .width-logo {
+    text-align: left
+}
+
+.partage-rv .modal-content {
+    padding-bottom: 0
+}
+
+.partage-rv .modal-footer {}
+
+.partage-rv .modal-footer p {
+    text-align: center;
+    padding: 11px 0px 1px;
+    color: #36393B;
+    font-weight: 550;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-bottom: 0
+}
+
+.partage-rv .modal-footer p span {
+    color: #ec1b1b;
+    font-size: 16px
+}
+
+.partage-rv .partage-reseaux p {
+    text-align: center;
+    font-size: 21px;
+    color: #FF5722;
+    letter-spacing: 1.3
+}
+
+.imprimer-rv .modal-header p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.imprimer-rv .modal-header p span {
+    font-size: 15px
+}
+
+.imprimer-rv .modal-header img {
+    width: 100%
+}
+
+.imprimer-rv .modal-header {
+    align-items: center;
+}
+
+.imprimer-rv .date-tirage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imprimer-rv .imprimer button {
+    font-family: Montserrat-Medium;
+    border: none;
+    color: #fff;
+    background: #2ECC71;
+    padding: 10px 33px;
+    margin: 0 10px;
+    border-radius: 12px;
+    font-size: 19px;
+    cursor: pointer;
+    outline: none;
+    margin: 43px 0 0;
+}
+
+.imprimer-rv .close {
+    text-align: end;
+    margin-right: 16px;
+    margin-top: 14px;
+}

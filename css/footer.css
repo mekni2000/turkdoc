@@ -1,0 +1,68 @@
+            footer {
+                padding: 25px 0px;
+            }
+            
+            footer,
+            footer .container .row ul li a,
+            footer .container .row a {
+                color: #36393B;
+                text-decoration: none;
+                font-family: Montserrat
+            }
+            
+            footer .footer-img {
+                margin-bottom: 25px;
+            }
+            
+            footer .container .row .title-footer {
+                font-weight: 600;
+                font-size: 20px;
+                color: #36393B;
+                margin-bottom: 41px;
+                font-family: Montserrat
+            }
+            
+            footer .container .row ul {
+                list-style: none;
+                padding-left: 0
+            }
+            
+            footer .container .row ul li {
+                margin-top: 7px
+            }
+            
+            footer .container .row ul li a {
+                text-decoration: none;
+                cursor: pointer;
+            }
+            
+            footer .container .row .PHONE {
+                color: #ec1b1b;
+                font-weight: 600
+            }
+            
+            footer .android-footer {
+                margin-top: 25px
+            }
+            
+            .COPYRIGHTS {
+                text-align: center;
+                padding: 11px 0px 1px;
+                color: #36393B;
+                font-weight: 550;
+                font-family: Montserrat;
+                background: #F9F8FE
+            }
+            
+            .COPYRIGHTS p {
+                font-size: 14px
+            }
+            
+            .COPYRIGHTS span {
+                color: #EC1B1B;
+                font-family: Montserrat
+            }
+            
+            footer a {
+                cursor: pointer;
+            }

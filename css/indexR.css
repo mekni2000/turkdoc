@@ -1,0 +1,223 @@
+@media screen and (max-width:768px) {
+    .reserver {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 0px 27px 22px 14px;
+        transform: translate(0%, 31%);
+    }
+    .reserver h2 {
+        font-size: 30px
+    }
+    .reserver h3 {
+        font-size: 20px;
+        letter-spacing: 1.2;
+        margin: 29px 0;
+    }
+    .selectric-wrapper {
+        margin-bottom: 17px
+    }
+    .search a {
+        font-size: 18px
+    }
+    .specialistes h3,
+    .marche h3 {
+        font-size: 25px
+    }
+    .specialistes p,
+    .marche p {
+        font-size: 17px
+    }
+    .marche .medecin-pro p {
+        font-size: 17px;
+    }
+    .marche .medecin-pro a {
+        font-size: 17px
+    }
+    .marche .medecin-pro {
+        margin-top: 30px
+    }
+    .Download .Download-app h4 {
+        width: 100%;
+        font-size: 18px
+    }
+    .Download .container {
+        margin-right: auto;
+    }
+    .Download h3 {
+        font-size: 28px
+    }
+    .Download p {
+        font-size: 18px
+    }
+    .professoinnels h4 {
+        font-size: 16px
+    }
+    .professoinnels h3 {
+        text-align: center
+    }
+    .materiel .voir-plus {
+        text-align: center
+    }
+    .materiel .voir-plus a {
+        font-size: 17px
+    }
+    .materiel .list-practice {
+        margin: 35px 0
+    }
+    .materiel .container {
+        max-width: 95%;
+    }
+    .specialistes .owl-carousel .owl-nav {
+        text-align: center
+    }
+    .specialistes .owl-carousel .owl-nav button.owl-next,
+    .specialistes .owl-carousel .owl-nav button.owl-prev {
+        position: static;
+        width: 32%
+    }
+    .specialistes .owl-carousel .owl-nav button.owl-next img,
+    .specialistes .owl-carousel .owl-nav button.owl-prev img {
+        width: 48%
+    }
+    .specialistes .owl-carousel .owl-nav button.owl-next {
+        text-align: left
+    }
+    .specialistes .owl-carousel .owl-nav button.owl-prev {
+        text-align: right;
+        margin-right: 10px
+    }
+    .materiel .Matériaux {
+        margin-top: 25px
+    }
+    .marche .medecin-pro a:hover,
+    .marche .medecin-pro a:active {
+        padding: 11px 15px;
+    }
+    .marche .medecin-pro a {
+        padding: 11px 21px
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .reserver {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0%, 37%);
+        margin: 0px 90px;
+    }
+    .selectric-wrapper {
+        margin-bottom: 17px;
+    }
+    .materiel .Matériaux {
+        margin-top: 25px
+    }
+    .reserver h2 {
+        font-size: 35px
+    }
+    .reserver h3 {
+        font-size: 25px
+    }
+    .search a {
+        font-size: 18px
+    }
+    .specialistes h3,
+    .marche h3 {
+        font-size: 25px;
+    }
+    .specialistes p,
+    .marche p {
+        font-size: 19px
+    }
+    .marche .medecin-pro {
+        margin-bottom: 30px
+    }
+    .Download .Download-app h4 {
+        font-size: 20px;
+    }
+    .Download h3 {
+        font-size: 33px
+    }
+    .Download p {
+        font-size: 17px
+    }
+    .professoinnels h4 {
+        font-size: 18px
+    }
+    .professoinnels h3,
+    .materiel .voir-plus {
+        text-align: center
+    }
+    .materiel .Matériaux a .text-center {
+        left: 46%
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .reserver {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0%, 84%);
+        padding: 0px 93px;
+    }
+    .marche .medecin-pro p {
+        font-size: 18px;
+    }
+    .specialistes p,
+    .marche p {
+        font-size: 20px
+    }
+    .marche .medecin-pro .m-5 {
+        margin: 68px 0 !important
+    }
+    .marche .medecin-pro .prendre {
+        margin: 89px 0 20px !important
+    }
+    .marche .medecin-pro .m-4 {
+        margin-top: 47px !important
+    }
+    .Download .Download-app h4 {
+        width: 60%;
+        font-size: 21px;
+    }
+    .Download h3 {
+        font-size: 27px
+    }
+    .marche .container {
+        max-width: 100%;
+    }
+    .marche .medecin-pro a {
+        font-size: 18px;
+        padding: 7 22px;
+        position: absolute;
+        bottom: 14px;
+        left: 25%;
+    }
+    .materiel .container {
+        max-width: 95%;
+    }
+    .materiel .Matériaux p {
+        font-size: 17px
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    .Download .Download-app h4 {
+        font-size: 21px;
+    }
+    .Download h3 {
+        font-size: 36px;
+    }
+    .reserver {
+        left: 31%;
+        transform: translate(-22%, -50%);
+    }
+    .marche .medecin-pro .m-5 {
+        margin: 4.5rem 0 !important;
+    }
+    .materiel .Matériaux a .text-center {
+        left: 46%
+    }
+}

@@ -1,0 +1,219 @@
+@media screen and (max-width:576px) {
+    header .ivoire {
+        text-align: center;
+        margin-top: 20px;
+    }
+    header .container .Revolution {
+        margin-top: 20px;
+    }
+    header .container .Revolution h2 {
+        font-size: 19px;
+    }
+    header .container .Revolution p {
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1.2
+    }
+    br {
+        display: none;
+    }
+    header .container .materiel {
+        margin: auto;
+    }
+    header .container .m-xs {
+        margin-top: 35px
+    }
+    header .container .materiel img {
+        width: 60%;
+    }
+    header .container .materiel p {
+        font-size: 16px
+    }
+    header .btn-devis {
+        margin-top: 45px;
+    }
+    header .btn-devis a {
+        font-size: 20px;
+        padding: 12px 30px;
+    }
+    .owl-carousel .owl-nav button.owl-next span,
+    .owl-carousel .owl-nav button.owl-prev span {
+        font-size: 35px;
+    }
+    .owl-carousel .owl-stage-outer {
+        padding: 35px 60px;
+    }
+}
+
+@media (min-width:576px) and (max-width:786px) {
+    header .ivoire img {
+        width: 21%;
+    }
+    header .logo-cons,
+    header .ivoire {
+        text-align: center;
+        margin-top: 26px;
+    }
+    header .logo-cons img {
+        width: 80%;
+    }
+    header .container .Revolution h2 {
+        font-size: 30px
+    }
+    header .container .Revolution {
+        margin-top: 20px;
+    }
+    header .container .Revolution p {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    header .container .materiel p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:787px) and (max-width:992px) {
+    header .container .Revolution h2 {
+        font-size: 30px;
+    }
+    header .logo-cons {
+        text-align: center;
+    }
+    header .container .Revolution {
+        margin-top: 30px;
+        text-align: center
+    }
+    header .ivoire {
+        text-align: center;
+        margin-top: 25px
+    }
+    header .container .Revolution p {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+    header .container .materiel p {
+        font-size: 17px;
+    }
+    header .btn-devis a {
+        font-size: 23px;
+        padding: 12px 49px;
+    }
+    header .container .materiel .mt-4 {
+        margin-top: 0px !important
+    }
+    .owl-carousel .owl-stage-outer {
+        padding: 35px 50px
+    }
+}
+
+@media (min-width:992px) and (max-width:1299px) {
+    header .container .Revolution h2 {
+        font-size: 22px;
+    }
+    header .container .Revolution p {
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    header .container .materiel p {
+        font-size: 12px;
+    }
+}
+
+header .btn-devis a {
+    font-size: 22px;
+    padding: 12px 50px;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding: 35px 55px
+}
+
+header .container .materiel {
+    margin: 0
+}
+
+
+}
+@media (min-width:1266px) and (max-width:1600px) {
+    header {
+        padding: 55px 0;
+    }
+    
+    header .container .Revolution h2 {
+        font-size: 30px;
+    }
+    
+    header .container .Revolution p {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    
+    header .container .materiel {
+        margin: 19px 0px;
+    }
+    
+    header .container .materiel p,
+    header .btn-devis a {
+        font-size: 14px;
+    }
+    
+    header .btn-devis {
+        margin-top: 50px;
+    }
+    
+    .owl-carousel .owl-stage-outer {
+        padding: 35px 46px;
+    }
+    
+    header .container .materiel img {
+        width: 20%
+    }
+}
+@media (min-width:1501px) and (max-width:1700px) {
+    header .container .Revolution h2 {
+        font-size: 35px
+    }
+    
+    header .container .Revolution p {
+        font-size: 22px;
+    }
+    
+    header .container .materiel p {
+        font-size: 17px
+    }
+    
+    header .btn-devis a {
+        padding: 12px 54px;
+        font-size: 18px
+    }
+    
+    header .btn-devis {
+        margin-top: 50px;
+    }
+    
+    header .container .materiel img {
+        width: 24%
+    }
+}
+@media (min-width:1701px) and (max-width:1900px) {
+    header .container .Revolution h2 {
+        font-size: 40px
+    }
+    
+    header .container .Revolution p {
+        font-size: 25px
+    }
+    
+    header .container .materiel {
+        margin: 10px 0px;
+    }
+    
+    header .container .materiel p {
+        font-size: 17px;
+    }
+    
+    header .btn-devis {
+        margin-top: 45px
+    }
+}
+ZZZZZZZZZZ

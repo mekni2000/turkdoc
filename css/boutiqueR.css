@@ -1,0 +1,436 @@
+                                        @media(min-width:1600px) {
+                                            .boutique .boutiqueLogo p {
+                                                font-size: 20px;
+                                            }
+                                            .boutique .devis-boutique a {
+                                                font-size: 20px;
+                                            }
+                                            .boutique .item .MECANIQUE p,
+                                            .INGCO .item .MECANIQUE p {
+                                                font-size: 20px;
+                                            }
+                                            .boutique .item .MECANIQUE span,
+                                            .INGCO .item .MECANIQUE span,
+                                            .boutique .item .prix p,
+                                            .boutique .item .panier span,
+                                            .INGCO .item .panier span,
+                                            .INGCO .item .remise p {
+                                                font-size: 18px;
+                                            }
+                                            .boutique .item .prix p {
+                                                padding: 9px 21px 8px 16px;
+                                                bottom: -19px;
+                                            }
+                                            .boutique {
+                                                padding: 63px 0px 50px;
+                                                margin: 60px 81px;
+                                            }
+                                            .INGCO .owl-carousel .owl-nav button.owl-next,
+                                            .INGCO .owl-carousel .owl-nav button.owl-prev {
+                                                right: -2%
+                                            }
+                                            .INGCO .owl-carousel .owl-nav button.owl-prev {
+                                                left: -2%
+                                            }
+                                            .visite .btp-jaune {
+                                                font-size: 40px;
+                                            }
+                                            .visite p {
+                                                font-size: 35px;
+                                            }
+                                            .visite span,
+                                            .visite .commencer a,
+                                            .store .application p {
+                                                font-size: 20px;
+                                            }
+                                            .store .application h6 {
+                                                font-size: 40px;
+                                            }
+                                            .store .ios-img,
+                                            .store .android-img {
+                                                margin-top: 30px
+                                            }
+                                            .select-marque select,
+                                            .INGCO .container .Pompes p {
+                                                font-size: 20px
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width:991px) {
+                                            .select-marque h5::before,
+                                            .select-marque h5::after {
+                                                content: ''
+                                            }
+                                            .boutique {
+                                                margin: 20px 16px;
+                                                padding-bottom: 0
+                                            }
+                                            .boutique .item {
+                                                margin-left: 0;
+                                            }
+                                            .boutique .item .prix p {
+                                                bottom: -17px
+                                            }
+                                            .boutique .item img {
+                                                width: 100%
+                                            }
+                                            .boutique .item .MECANIQUE p,
+                                            .INGCO .item .MECANIQUE p {
+                                                font-size: 14px;
+                                            }
+                                            .boutique .boutiqueLogo p,
+                                            .boutique .devis-boutique {
+                                                margin-top: 27px;
+                                            }
+                                            .boutique .owl-nav {
+                                                margin: 20px auto;
+                                                text-align: center
+                                            }
+                                            .boutique-ingco h4,
+                                            .boutique-kaiser h4 {
+                                                font-size: 17px
+                                            }
+                                            .boutique .item .panier span,
+                                            .INGCO .item .panier span,
+                                            .INGCO .item .remise p {
+                                                font-size: 12px
+                                            }
+                                            .INGCO .materiels {
+                                                padding: 20px 8px;
+                                            }
+                                            .boutique .item .panier,
+                                            .INGCO .item .panier,
+                                            .remise {
+                                                justify-content: center;
+                                                font-size: 15px;
+                                                text-align: center
+                                            }
+                                            .gamme-complete IMG {
+                                                width: 50%
+                                            }
+                                            .industrie .gamme-complete p {
+                                                font-size: 18px
+                                            }
+                                            .industrie .gamme-complete {
+                                                padding: 24px 29px;
+                                            }
+                                            .industrie .pr-0,
+                                            .industrie {
+                                                text-align: center
+                                            }
+                                            .boutiqueLogo h2 {
+                                                font-size: 26px;
+                                            }
+                                            .INGCO .owl-carousel .owl-nav button.owl-next {
+                                                right: -6%
+                                            }
+                                            .INGCO .owl-carousel .owl-nav button.owl-prev {
+                                                left: -6%
+                                            }
+                                            .modal1 h2 {
+                                                margin-top: 30px;
+                                                font-size: 28px;
+                                            }
+                                            .modal1 .ajout-panier {
+                                                text-align: center;
+                                            }
+                                            .modal1 .ajout-panier a {
+                                                font-size: 21px
+                                            }
+                                            .MODAL1 .modal-content {
+                                                padding: 35px 30px 50px;
+                                            }
+                                            .modal1 button.close {
+                                                margin-right: 10px
+                                            }
+                                        }
+                                        
+                                        @media (min-width:769px) and (max-width:991px) {
+                                            .boutiqueLogo {
+                                                margin: 30px 0
+                                            }
+                                            .boutique .boutiqueLogo img {
+                                                width: 50%
+                                            }
+                                            .boutique .boutiqueLogo a img {
+                                                width: auto
+                                            }
+                                            .MODAL1 .prev {
+                                                left: 12%;
+                                                bottom: 30%
+                                            }
+                                            .MODAL1 .next {
+                                                right: 12%;
+                                                bottom: 30%
+                                            }
+                                            .column {
+                                                max-width: 14.66%
+                                            }
+                                            .modal1 .dot-position {
+                                                bottom: 34%
+                                            }
+                                        }
+                                        
+                                        @media (min-width:992px) and (max-width:1024px) {
+                                            .boutique {
+                                                padding-bottom: 0
+                                            }
+                                            .select-marque h5::before {
+                                                left: 14.5%
+                                            }
+                                            .select-marque h5::after {
+                                                right: 14.5%
+                                            }
+                                            .boutique-ingco h4,
+                                            .boutique-kaiser h4 {
+                                                font-size: 17px
+                                            }
+                                            .column {
+                                                max-width: 14.66%
+                                            }
+                                            .modal1 .mySlides img {
+                                                height: 27%
+                                            }
+                                            .modal1 .mySlides img {
+                                                width: 100% !important;
+                                            }
+                                            .modal1 .logo-ingco {
+                                                position: absolute;
+                                                top: 4%;
+                                                left: 20%;
+                                            }
+                                            .modal1 li {
+                                                font-size: 16px
+                                            }
+                                            .column {
+                                                max-width: 14.66%
+                                            }
+                                            .modal1 .next {
+                                                right: 15%;
+                                                bottom: 56%
+                                            }
+                                            .modal1 h4 {
+                                                font-size: 23px;
+                                            }
+                                            .modal1 h5 {
+                                                font-size: 18px;
+                                            }
+                                            .modal1 h6 {
+                                                font-size: 16px
+                                            }
+                                            .modal1 .prev {
+                                                left: 15%;
+                                                bottom: 56%
+                                            }
+                                            .modal1 .dot-position {
+                                                position: absolute;
+                                                bottom: 58%;
+                                                left: 38%;
+                                            }
+                                            .modal1 .column img {
+                                                height: 50px
+                                            }
+                                            .modal1 h2 {
+                                                font-size: 25px;
+                                                margin: 20px 0
+                                            }
+                                            .modal1 h2 span {
+                                                font-size: 16px;
+                                            }
+                                            .modal1 .ajout-panier a {
+                                                font-size: 17px
+                                            }
+                                        }
+                                        
+                                        @media (min-width:1025px) and (max-width:1300px) {
+                                            .select-marque h5::before {
+                                                left: 15%
+                                            }
+                                            .select-marque h5::after {
+                                                right: 15%
+                                            }
+                                            .boutique .item .prix p {
+                                                bottom: -17px
+                                            }
+                                            .boutique .item {
+                                                margin-left: 0
+                                            }
+                                            .boutiqueLogo h2 {
+                                                font-size: 45px
+                                            }
+                                            .modal1 h2 {
+                                                font-size: 24px
+                                            }
+                                            .modal1 p {
+                                                font-size: 19px
+                                            }
+                                            .modal1 li {
+                                                font-size: 17px
+                                            }
+                                            .modal1 h4 {
+                                                font-size: 17px
+                                            }
+                                            .modal1 .ajout-panier a {
+                                                font-size: 17px
+                                            }
+                                            .modal1 .column {
+                                                max-width: 14.66%
+                                            }
+                                            .MODAL1 .prev {
+                                                LEFT: 16%;
+                                                bottom: 37%
+                                            }
+                                            .MODAL1 .next {
+                                                right: 16%;
+                                                bottom: 37%
+                                            }
+                                            .modal1 .dot-position {
+                                                position: absolute;
+                                                bottom: 40%;
+                                                left: 38%;
+                                            }
+                                        }
+                                        
+                                        @media (min-width:1301px) and (max-width:1500px) {
+                                            .select-marque h5::before {
+                                                left: 23%;
+                                            }
+                                            .select-marque h5::after {
+                                                right: 23%
+                                            }
+                                            .boutique .item {
+                                                margin-left: -7px
+                                            }
+                                            .boutique .item .prix p {
+                                                bottom: -17px
+                                            }
+                                            .modal1 {
+                                                top: 25px
+                                            }
+                                            .MODAL1 .modal-content {
+                                                padding: 34px 10px 47px;
+                                            }
+                                            .modal1 .next {
+                                                right: 12%;
+                                                bottom: 33%
+                                            }
+                                            .modal1 .prev {
+                                                left: 12%;
+                                                bottom: 33%
+                                            }
+                                            .modal1 .dot-position {
+                                                bottom: 35%
+                                            }
+                                            .modal1 .column img {
+                                                height: auto;
+                                            }
+                                            .modal1 .column {
+                                                max-width: 14.66%
+                                            }
+                                            .modal1 .ajout-panier a {
+                                                font-size: 20px
+                                            }
+                                            .modal1 h2 {
+                                                font-size: 30px
+                                            }
+                                            .modal1 h2 span {
+                                                font-size: 17px
+                                            }
+                                        }
+                                        
+                                        @media (min-width:1501px) and (max-width:1700px) {
+                                            .select-marque h5::before {
+                                                left: 26%
+                                            }
+                                            .select-marque h5::after {
+                                                right: 26%
+                                            }
+                                            .boutique .item .prix p {
+                                                bottom: -19px
+                                            }
+                                            .prev,
+                                            .next {
+                                                bottom: 35%
+                                            }
+                                            .modal1 .dot-position {
+                                                bottom: 38%;
+                                            }
+                                            .column {
+                                                max-width: 14.66%
+                                            }
+                                        }
+                                        
+                                        @media (min-width:1701px) and (max-width:1900px) {
+                                            .prev,
+                                            .next {
+                                                bottom: 35%
+                                            }
+                                            .modal1 .dot-position {
+                                                bottom: 38%;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width:768px) {
+                                            .myslides {
+                                                margin: 0px 0px 32px;
+                                            }
+                                            .modal1 .next,
+                                            .modal1 .prev {
+                                                bottom: 25%
+                                            }
+                                            .modal1 .dot-position {
+                                                position: absolute;
+                                                bottom: 27%;
+                                                left: 37%;
+                                            }
+                                            .column {
+                                                max-width: 14.66%
+                                            }
+                                            .modal1 .img-column {
+                                                padding: 0px 20px;
+                                            }
+                                            .MODAL1 .modal-content {
+                                                padding: 22px 0px 80px;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width:359px) {
+                                            .modal1 .next,
+                                            .modal1 .prev {
+                                                bottom: 38%
+                                            }
+                                            .modal1 .dot-position {
+                                                position: absolute;
+                                                bottom: 42%;
+                                                left: 31%;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width:576px) {
+                                            .column {
+                                                max-width: 13.66%
+                                            }
+                                            .modal1 .mySlides img {
+                                                width: 100% !important;
+                                                height: 32%;
+                                            }
+                                            .modal1 .next,
+                                            .modal1 .prev {
+                                                bottom: 30%;
+                                            }
+                                            .modal1 .column img {
+                                                height: auto
+                                            }
+                                            .modal1 h2 {
+                                                font-size: 22px;
+                                            }
+                                            .modal1 p {
+                                                font-size: 18px
+                                            }
+                                            .modal1 li {
+                                                font-size: 16px
+                                            }
+                                            .modal1 .ajout-panier a {
+                                                font-size: 18px;
+                                            }
+                                        }

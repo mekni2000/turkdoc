@@ -1,0 +1,98 @@
+            @media (min-width:1600px) {
+                .actualite p,
+                .actualite p:last-child,
+                .Skip-hill .startup-idea .Latest a,
+                .Skip-hill .startup-idea .Popular a {
+                    font-size: 22px;
+                }
+                .actualite i {
+                    margin: 8px 10px;
+                }
+                .Skip-hill .startup span,
+                .Skip-hill .startup p:last-child {
+                    font-size: 17px;
+                }
+                .Skip-hill .startup p,
+                .Skip-hill .carousel-caption p,
+                .CONSEIL .BUILDER span {
+                    font-size: 20px;
+                }
+                .Skip-hill .startup span,
+                .Skip-hill .startup p:last-child,
+                .Skip-hill .startup .voir-plus a {
+                    margin-top: 14px
+                }
+                .Skip-hill .carousel-caption h3,
+                .CONSEIL .BUILDER p {
+                    font-size: 30px;
+                }
+                .Skip-hill .startup .voir-plus a {
+                    font-size: 18px;
+                    padding: 10px 38px;
+                }
+                .CONSEIL .BUILDER h6 {
+                    font-size: 24px
+                }
+                .CONSEIL .row {
+                    margin-top: 40px
+                }
+                .CONSEIL {
+                    padding: 39px 0px 52px;
+                }
+                .store .application h6 {
+                    font-size: 40px
+                }
+                .store .application p {
+                    font-size: 20px
+                }
+                .store .ios-img,
+                .store .android-img {
+                    margin-top: 30px
+                }
+                .CONSEIL .BUILDER p {
+                    font-size: 30px;
+                }
+                .CONSEIL .BUILDER h6 {
+                    font-size: 24px;
+                }
+                .CONSEIL .BUILDER span {
+                    font-size: 24px;
+                    line-height: 1.1
+                }
+                .CONSEIL {
+                    padding: 40px 0px 60px;
+                }
+                .CONSEIL .BUILDER h6 {
+                    font-size: 24px;
+                }
+            }
+            
+            @media screen and (max-width:991px) {
+                .CONSEIL .BUILDER {
+                    width: 100%;
+                }
+                .CONSEIL .row,
+                .CONSEIL .CONSEIL-pros {
+                    margin-left: auto
+                }
+                .CONSEIL .BUILDER p {
+                    font-size: 20px;
+                    line-height: 1.2
+                }
+                .CONSEIL .BUILDER h6 {
+                    margin-bottom: 2px;
+                    font-size: 16px;
+                }
+                .SKILLED .consetetur p,
+                .CONSEIL .BUILDER span,
+                .CONSEIL .CONSEIL-pros span {
+                    font-size: 15px
+                }
+                .CONSEIL .CONSEIL-pros p,
+                .CONSEIL .CONSEIL-pros a {
+                    font-size: 18px
+                }
+                .CONSEIL .CONSEIL-pros {
+                    padding: 25px 25px;
+                }
+            }

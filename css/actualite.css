@@ -1,0 +1,232 @@
+.actualite {
+    margin: 24px 0px 8px
+}
+
+.actualite p {
+    font-size: 18px;
+    color: #ABB4BD;
+    font-weight: 600
+}
+
+.actualite i {
+    font-size: 18px;
+    color: #ABB4BD;
+    margin: 4px 10px;
+}
+
+.actualite p:last-child {
+    font-size: 18px;
+    color: #EEC400;
+}
+
+.Skip-hill {
+    padding-bottom: 50px
+}
+
+.Skip-hill .carousel-indicators {
+    color: #000;
+    bottom: 185px
+}
+
+.Skip-hill .carousel-indicators li {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+}
+
+.Skip-hill .carousel-caption {
+    position: initial;
+    text-align: left
+}
+
+.Skip-hill .carousel-caption p {
+    color: #83888d
+}
+
+.Skip-hill .carousel-caption h3 {
+    color: #333333;
+    font-weight: 600
+}
+
+.Skip-hill .startup-idea {}
+
+.Skip-hill .startup-idea a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.Skip-hill .startup-idea .Latest a {
+    color: #EEC400;
+    border-bottom: 2px solid #EEC400;
+    padding-bottom: 17px;
+    padding-right: 25px;
+    font-weight: 600
+}
+
+.Skip-hill .startup-idea .Popular a {
+    color: #ABB4BD;
+    font-weight: 600
+}
+
+.Skip-hill .startup span,
+.Skip-hill .startup p:last-child {
+    font-size: 13px;
+    color: #ABB4BD;
+    font-weight: 600
+}
+
+.Skip-hill .startup p {
+    color: #262c2f;
+    margin-bottom: 1px;
+    line-height: 1.2;
+    margin-top: 1px;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.Skip-hill .startup .Kadir {
+    color: #EEC400;
+}
+
+.Skip-hill .startup .voir-plus {
+    text-align: end;
+    margin-top: 25px;
+}
+
+.Skip-hill .startup .voir-plus a {
+    text-decoration: none;
+    font-weight: 600;
+    background: #EEC400;
+    padding: 10px 24px;
+    border-radius: 28;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.CONSEIL {
+    background-image: linear-gradient(120deg, #cfcece6b 0%, #e4e4e1bf 100%);
+    padding: 20px 0px 30px
+}
+
+.CONSEIL .BUILDER {
+    margin: 15px auto;
+    width: 60%;
+    text-align: center
+}
+
+.CONSEIL .BUILDER p {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.CONSEIL .BUILDER .STRUC {
+    color: #EEC400;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.CONSEIL .BUILDER h6 {
+    color: #404040;
+    font-size: 20px;
+}
+
+
+/*
+.CONSEIL .BUILDER h6::before{
+    content:url('../img/line-struc.png');
+     position: absolute;
+    bottom: 14px;
+    left:27%;
+    margin-left:6px
+}
+*/
+
+.CONSEIL .CONSEIL-pros {
+    border: 1px solid #CECFD1;
+    padding: 30px 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px
+}
+
+.CONSEIL .CONSEIL-1 {
+    margin-left: -38px
+}
+
+.CONSEIL .row {
+    margin-left: 5%;
+}
+
+.CONSEIL .CONSEIL-pros p,
+.CONSEIL .CONSEIL-pros a {
+    text-decoration: none;
+    color: #404040;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.CONSEIL .CONSEIL-pros span {
+    color: #626262;
+    font-weight: 550;
+    font-size: 17px
+}
+
+.CONSEIL .CONSEIL-pros .READ {
+    margin-top: 14px
+}
+
+.store {
+    padding: 50px 0
+}
+
+.store .row {
+    align-items: center;
+}
+
+.store .application span {
+    color: #EEC400;
+}
+
+.store .application h6 {
+    color: #232323;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.store .application p {
+    color: #747F92;
+    font-size: 17px;
+    line-height: 1.2
+}
+
+.store .application-ios {
+    margin-top: 30px;
+}
+
+.store .application .application-ios p {
+    font-size: 25px;
+    color: #747F92;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+.store .code-img p {
+    font-size: 14px;
+    font-weight: 550;
+    color: #747F92;
+    line-height: 1.08;
+    font-weight: 550
+}
+
+.store .code-img {
+    text-align: center;
+    margin-left: 35px;
+}
+
+.conseil-background {
+    background: #EEC400
+}

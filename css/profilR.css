@@ -1,0 +1,28 @@
+@media screen and (max-width:992px) {
+    header .reserver {
+        width: 80%;
+        margin: auto;
+        transform: translate(0%, 12%);
+    }
+    .rendez-vous .rendez-vous1 {
+        justify-content: center
+    }
+    .rendez-vous .rendez-vous1 .rendez-vous2 {
+        margin: 45px 0
+    }
+    .rendez-vous .rendez-vous1 .rendez-vous2 a {
+        padding: 16px 37px
+    }
+    .rendez-vous .presentation h4 {
+        font-size: 19px
+    }
+    .rendez-vous .presentation p {
+        font-size: 17px
+    }
+}
+
+@media (min-width:576px) and (max-width:992px) {
+    .rendez-vous .rendez-vous1 .rendez-vous2 {
+        margin: 0 17px;
+    }
+}

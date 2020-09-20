@@ -1,0 +1,704 @@
+header .bg-nav {
+    height: 80%;
+    /* background-size: cover; */
+    background-position: center;
+}
+
+header {
+    height: auto
+}
+
+.filtre {
+    padding: 44px 0px 33px;
+}
+
+.filtre h3 {
+    color: #EC1B1B;
+    font-family: Montserrat;
+    font-size: 35px
+}
+
+.filtre .form-control {
+    height: 55px;
+    border-radius: 39px;
+    padding: 0px 15px;
+    background: transparent;
+    color: #fff;
+    font-family: Regular
+}
+
+.filtre .row {
+    align-items: baseline
+}
+
+.filtre select {
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.filtre .select-apparence .selectric ::after {
+    content: url('../img/down-arrow.png');
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 23px 21px;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    margin-right: 1rem!important;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    background: transparent;
+    color: #747F92;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px
+}
+
+.rendez-vous {
+    margin: 40px 0
+}
+
+.rendez-vous h5 {
+    color: #AEAEAE;
+    font-family: Montserrat-Medium;
+}
+
+.rendez-vous h6 {
+    color: #aba8a8;
+    font-family: Montserrat-Medium;
+    margin: 30px 0
+}
+
+.rendez-vous h4 {
+    color: #67778a;
+    font-family: Montserrat-Medium;
+    line-height: 1.2
+}
+
+.rendez-vous p {
+    color: #08264A;
+    line-height: 1.;
+    font-family: Montserrat-Medium;
+    margin: 13px 0 10px
+}
+
+.rendez-vous span {
+    color: #ec1b1b;
+    line-height: 1.2
+}
+
+.rendez-vous .dr-jhon {
+    margin: 20px 0
+}
+
+.rendez-vous .owl-carousel {
+    padding: 0 20px
+}
+
+.rendez-vous .owl-carousel p {
+    margin-bottom: 3px
+}
+
+.rendez-vous .owl-carousel p,
+.rendez-vous .owl-carousel span {
+    font-family: Montserrat;
+}
+
+.rendez-vous .owl-carousel .owl-prev {
+    position: absolute;
+    top: 28px;
+    left: 0
+}
+
+.rendez-vous .owl-carousel .owl-next {
+    position: absolute;
+    top: 28px;
+    right: 0
+}
+
+.rendez-vous .owl-carousel button {
+    outline: none
+}
+
+.rendez-vous .item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.date {
+    margin-top: 50px;
+    line-height: 3
+}
+
+.date a {
+    color: #7B7B7B;
+    font-family: Montserrat;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    margin: 20px 5px;
+    padding: 5px 18px;
+    box-shadow: 1px 3px 20px -12px #40a2dc;
+}
+
+.date a:hover,
+.date a:active {
+    background: #EC1B1B;
+    color: #fff;
+    border-color: #EC1B1B
+}
+
+.no-border {
+    border: none !important
+}
+
+.no-border:hover {
+    background: none !important
+}
+
+.rendez-vous .rendez-vous1 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 70px 0;
+}
+
+.rendez-vous .rendez-vous1 .Demander-avis a {
+    color: #8595A8;
+    font-size: 20px;
+    font-family: Montserrat;
+    border: 1px solid #707070;
+    padding: 16px 26px;
+    border-radius: 6px;
+}
+
+.rendez-vous .rendez-vous1 .Demander-avis a {
+    background-color: rgb(255, 240, 75);
+    color: #000
+}
+
+.rendez-vous .rendez-vous1 .rendez-vous2 a {
+    background: #fff;
+    font-size: 20px;
+    font-family: Montserrat;
+    border: 1px solid #707070;
+    padding: 16px 57px;
+    border-radius: 6px;
+    color: #EC1B1B;
+    box-shadow: 0px 3px 20px -1px #989898;
+}
+
+.rendez-vous .dr-jhon2 .rendez-vous1 .rendez-vous2 a:hover,
+.rendez-vous .rendez-vous1 .rendez-vous2 a:hover {
+    background: #EC1B1B;
+    color: #fff;
+}
+
+.rendez-vous .dr-jhon img {
+    box-shadow: 1px 3px 20px -12px #40a2dc;
+}
+
+.rendez-vous .non-disponible {
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 297px;
+    margin: 55px 0;
+}
+
+.rendez-vous .non-disponible p {
+    color: #7B7B7B;
+    font-family: Montserrat;
+    font-size: 25px
+}
+
+.rendez-vous .google-map {
+    padding: 0px 47px
+}
+
+.rendez-vous .google-map p {
+    color: #D9D9D9;
+    font-family: Montserrat;
+    font-size: 20px
+}
+
+.pagination .item {
+    text-align: center;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    box-shadow: 1px 2px 7px 0px #d0cdcd
+}
+
+.pagination .owl-carousel.owl-drag .owl-item {
+    padding: 10px 2px;
+}
+
+.pagination .item a {
+    color: #4A4A4A;
+    font-family: Montserrat
+}
+
+.pagination .item:hover {
+    background: #EC1B1B;
+    color: #fff !important
+}
+
+.pagination .owl-carousel {
+    margin-left: 65px
+}
+
+.pagination .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 11px;
+    left: -94px;
+    height: 55px;
+    box-shadow: 1px 2px 7px 0px #d0cdcd;
+    width: 55px;
+    width: 86px;
+}
+
+.pagination .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 11px;
+    right: -94px;
+    height: 55px;
+    box-shadow: 1px 2px 7px 0px #d0cdcd;
+    width: 55px;
+    width: 86px;
+}
+
+.Download .Download-app h4 {
+    color: #08264A;
+    padding: 12px;
+    background: #ECFCF8;
+    width: 50%;
+    margin: 35px 0;
+    font-size: 25px;
+    font-family: Montserrat-Medium
+}
+
+.Download h3 {
+    color: #08264A;
+    font-family: Montserrat;
+    font-size: 50px;
+    letter-spacing: 1.3;
+    margin: 30px 0
+}
+
+.Download p {
+    color: #97A1AC;
+    font-size: 20px;
+    font-family: light
+}
+
+.Download .row {
+    align-items: center
+}
+
+.Download .row .row {
+    margin: 35px 0
+}
+
+.Download .container {
+    margin-right: 0
+}
+
+.rendez-vous .box-shadow {
+    box-shadow: -1px 4px 10px 2px #e8edf3;
+    padding: 24px 10px 30px;
+    border-radius: 10px;
+}
+
+.rendez-vous .dr-jhon1,
+.rendez-vous .dr-jhon2 {
+    box-shadow: 0px 0px 10px -3px #a2b2ec;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.Availability1 .looking {
+    position: relative;
+}
+
+.reserver .selectric {
+    width: 100%;
+    height: 55px;
+    padding: 0.65rem .75rem;
+    text-align: left
+}
+
+.reserver .col {
+    padding: 0
+}
+
+.reserver .selectric .label {
+    color: #A29B9B;
+    font-size: 1rem;
+    margin-left: 29px;
+    font-family: Montserrat-Medium;
+}
+
+.reserver .selectric-items {
+    background: none
+}
+
+.selectric-items ul {
+    background: #00000052
+}
+
+.selectric-items li.highlighted {
+    background: none
+}
+
+.selectric-items li,
+.selectric-items li.highlighted {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'regular';
+    border-bottom: 1px solid #fff;
+    padding: 18px 0;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.selectric-items li:hover {
+    background: #000000;
+    color: #fff;
+}
+
+.reserver .selectric .label::before {
+    content: url('../img/search2.png');
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.selectric .button {
+    display: none
+}
+
+.reserver .ou .selectric .label::before {
+    content: url('../img/local.png');
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.reserver .ou .selectric .label::after {
+    content: url('../img/tracker.png');
+    position: absolute;
+    top: 15px;
+    right: 23px;
+}
+
+.filtre .selectric {
+    width: 100%;
+    height: 55px;
+    padding: 0.65rem .75rem;
+    text-align: left;
+    border: 1px solid #000;
+}
+
+.filtre .col {
+    padding: 0
+}
+
+.filtre .selectric .label {
+    color: #000;
+    font-size: 1rem;
+    margin-left: 29px;
+    font-family: Montserrat-Medium;
+}
+
+.filtre .selectric-items {
+    background: none
+}
+
+.filtre .selectric-wrapper {
+    margin-right: 25px
+}
+
+.filtre .selectric {
+    background: transparent;
+    border-radius: 10px
+}
+
+.filtre .selectric-items li,
+.filtre .selectric-items li.highlighted {
+    background: #292727ad
+}
+
+.select-apparence {
+    width: 20%
+}
+
+header .reserver {
+    width: 60%;
+}
+
+
+/*popup de rendez vous
+
+.modal-dialog {
+    max-width: 80%;
+}
+*/
+
+.date-rendezVous a.d-flex {
+    justify-content: space-between
+}
+
+.date-rendezVous .number {
+    background: #EC1B1B;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    padding: 6px 12px;
+}
+
+.date-rendezVous h4 {
+    margin: 20px 0 0
+}
+
+.date-rendezVous p {
+    margin-bottom: 30px
+}
+
+.date-rendezVous .number span {
+    color: #fff
+}
+
+.date-rendezVous .number1 img {
+    width: 33px;
+    height: 33px;
+}
+
+.date-rendezVous .modal-footer .prev {
+    color: #8A8282;
+    font-family: Montserrat;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.date-rendezVous .modal-footer .next {
+    color: #EC1B1B;
+    font-family: Montserrat;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.date-rendezVous .modal-content {
+    padding: 0px 50px;
+    border-radius: 25px;
+    box-shadow: -1px 0px 28px -7px #4480ab;
+    height: 750px
+}
+
+.date-rendezVous select {
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-bottom: 1px solid #C0CCDA;
+    padding-left: 0;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.date-rendezVous .form-select::after {
+    content: url("../img/down-arrow1.png");
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px 21px;
+}
+
+.date-rendezVous .selectric {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #C0CCDA;
+    font-size: 18px
+}
+
+.date-rendezVous .selectric .label {
+    font-size: 18px
+}
+
+.date-rendezVous .dr-jhon2 {
+    box-shadow: none
+}
+
+.date-rendezVous.rendez-vous2 h5 {
+    color: #08264A
+}
+
+.date-rendezVous.rendez-vous2 label {
+    color: #6A6767;
+    margin-bottom: 0
+}
+
+
+/*checked*/
+
+.date-rendezVous .radio-wrap {
+    position: relative;
+    margin-right: 28px
+}
+
+.date-rendezVous .radio-wrap .radio-label-fake {
+    color: #627ae0;
+    font-weight: bold;
+}
+
+.date-rendezVous .radio-wrap>input {
+    position: relative;
+    top: 5px;
+    opacity: 0
+}
+
+.date-rendezVous .radio-wrap>label {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #EC1B1B;
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    left: 8%;
+    transform: translate(-50%, 0%);
+    cursor: pointer;
+}
+
+.date-rendezVous .radio-wrap>label::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.date-rendezVous .radio-wrap input[type="radio"]:checked+label::before {
+    background: #EC1B1B;
+}
+
+.date-rendezVous .radios {
+    display: flex
+}
+
+.date-rendezVous .radios span {
+    color: #08264A;
+    font-family: Montserrat-Medium;
+    margin-left: 10px;
+}
+
+.date-rendezVous .form-control {
+    border: none;
+    border-bottom: 1px solid #C0CCDA;
+    padding-left: 0;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.date-rendezVous .form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #EC1B1B;
+}
+
+.date-rendezVous .coordonnes label {
+    margin-bottom: 0
+}
+
+.date-rendezVous .coordonnes {
+    margin-top: 26px;
+}
+
+.date-rendezVous label {
+    color: #8D8B8B;
+    font-size: 19px
+}
+
+.date-rendezVous h5 {
+    color: #08264A
+}
+
+.date-rendezVous .rouge {
+    color: #EC1B1B !important
+}
+
+.date-rendezVous .conf {
+    margin: 50px 0
+}
+
+.date-rendezVous .consulter div {
+    display: inline;
+}
+
+.date-rendezVous .consulter a {
+    color: #8D8888;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.date-rendezVous .modal-dialog {
+    max-width: 80%
+}
+
+.dr-jhon4 {
+    display: none;
+}
+
+.dr-jhon4:first-child {
+    display: block
+}
+
+.etapes-rv .d-flex .border-number {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    color: #9297A9;
+    border: 2px solid #9297A9;
+    text-align: center
+}
+
+.etapes-rv .d-flex p {
+    font-family: Montserrat;
+    color: #9297A9
+}
+
+.etapes-rv .d-flex.rouge p {
+    color: #EC1B1B;
+}
+
+.etapes-rv .d-flex.rouge .border-number {
+    border: 2px solid #EC1B1B
+}
+
+.filtre .selectric-items li,
+.filtre .selectric-items li.highlighted {
+    padding-left: 15px
+}
